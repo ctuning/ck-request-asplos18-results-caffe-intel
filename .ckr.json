@@ -1,0 +1,10 @@
+{
+  "data_uoa": "ck-request-asplos18-results-caffe-intel",
+  "data_uid": "2f937a661883ae0e",
+  "data_alias": "ck-request-asplos18-results-caffe-intel",
+  "data_name": "ck-request-asplos18-results-caffe-intel",
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-request-asplos18-results-caffe-intel"
+  }
+}
