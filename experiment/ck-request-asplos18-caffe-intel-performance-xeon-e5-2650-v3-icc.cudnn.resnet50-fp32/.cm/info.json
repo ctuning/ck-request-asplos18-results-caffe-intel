@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "b00fd8c894e4ffe9",
+  "backup_module_uid": "bc0409fb61f0aa82",
+  "backup_module_uoa": "experiment",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2018-04-03T00:22:56.003571",
+    "version": [
+      "1",
+      "9",
+      "4",
+      "1"
+    ]
+  },
+  "data_name": "ck-request-asplos18-caffe-intel-performance-xeon-e5-2650-v3-icc.cudnn.resnet50-fp32"
+}

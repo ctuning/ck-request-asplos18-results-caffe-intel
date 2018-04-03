@@ -1,0 +1,26 @@
+{
+  "added": {
+    "engine": "CK", 
+    "iso_datetime": "2018-03-19T00:19:00.792931", 
+    "version": [
+      "1", 
+      "9", 
+      "4", 
+      "1"
+    ]
+  }, 
+  "meta": {}, 
+  "pipeline_uid": "b0ac08fe1d3c2615", 
+  "pipeline_uoa": "b0ac08fe1d3c2615", 
+  "points": "1", 
+  "tags": [
+    "request", 
+    "request-asplos18", 
+    "caffe", 
+    "intel", 
+    "accuracy", 
+    "inception-v3", 
+    "vint8", 
+    "vi8"
+  ]
+}
