@@ -1,0 +1,1839 @@
+{
+  "##characteristics#run#accuracy_top1#all": [
+    0.707186
+  ],
+  "##characteristics#run#accuracy_top1#all_unique": [
+    0.707186
+  ],
+  "##characteristics#run#accuracy_top1#center": 0.707186,
+  "##characteristics#run#accuracy_top1#exp": 0.707186,
+  "##characteristics#run#accuracy_top1#exp_allx": [
+    0.707186
+  ],
+  "##characteristics#run#accuracy_top1#exp_ally": [
+    100.0
+  ],
+  "##characteristics#run#accuracy_top1#exp_warning": "no",
+  "##characteristics#run#accuracy_top1#halfrange": 0.0,
+  "##characteristics#run#accuracy_top1#max": 0.707186,
+  "##characteristics#run#accuracy_top1#mean": 0.707186,
+  "##characteristics#run#accuracy_top1#min": 0.707186,
+  "##characteristics#run#accuracy_top1#range": 0.0,
+  "##characteristics#run#accuracy_top1#range_percent": 0.0,
+  "##characteristics#run#accuracy_top1#repeats": 1,
+  "##characteristics#run#accuracy_top5#all": [
+    0.898327
+  ],
+  "##characteristics#run#accuracy_top5#all_unique": [
+    0.898327
+  ],
+  "##characteristics#run#accuracy_top5#center": 0.898327,
+  "##characteristics#run#accuracy_top5#exp": 0.898327,
+  "##characteristics#run#accuracy_top5#exp_allx": [
+    0.898327
+  ],
+  "##characteristics#run#accuracy_top5#exp_ally": [
+    100.0
+  ],
+  "##characteristics#run#accuracy_top5#exp_warning": "no",
+  "##characteristics#run#accuracy_top5#halfrange": 0.0,
+  "##characteristics#run#accuracy_top5#max": 0.898327,
+  "##characteristics#run#accuracy_top5#mean": 0.898327,
+  "##characteristics#run#accuracy_top5#min": 0.898327,
+  "##characteristics#run#accuracy_top5#range": 0.0,
+  "##characteristics#run#accuracy_top5#range_percent": 0.0,
+  "##characteristics#run#accuracy_top5#repeats": 1,
+  "##choices#cmd_key#all": [
+    "time_cpu"
+  ],
+  "##choices#cmd_key#all_unique": [
+    "time_cpu"
+  ],
+  "##choices#cmd_key#min": "time_cpu",
+  "##choices#cmd_key#repeats": 1,
+  "##choices#compile_type#all": [
+    "dynamic"
+  ],
+  "##choices#compile_type#all_unique": [
+    "dynamic"
+  ],
+  "##choices#compile_type#min": "dynamic",
+  "##choices#compile_type#repeats": 1,
+  "##choices#cpu_freq#all": [
+    "max"
+  ],
+  "##choices#cpu_freq#all_unique": [
+    "max"
+  ],
+  "##choices#cpu_freq#min": "max",
+  "##choices#cpu_freq#repeats": 1,
+  "##choices#data_uoa#all": [
+    "caffe"
+  ],
+  "##choices#data_uoa#all_unique": [
+    "caffe"
+  ],
+  "##choices#data_uoa#min": "caffe",
+  "##choices#data_uoa#repeats": 1,
+  "##choices#dataset_file#all": [
+    ""
+  ],
+  "##choices#dataset_file#all_unique": [
+    ""
+  ],
+  "##choices#dataset_file#min": "",
+  "##choices#dataset_file#repeats": 1,
+  "##choices#device_id#all": [
+    ""
+  ],
+  "##choices#device_id#all_unique": [
+    ""
+  ],
+  "##choices#device_id#min": "",
+  "##choices#device_id#repeats": 1,
+  "##choices#energy#all": [
+    "no"
+  ],
+  "##choices#energy#all_unique": [
+    "no"
+  ],
+  "##choices#energy#min": "no",
+  "##choices#energy#repeats": 1,
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#all": [
+    0
+  ],
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#all_unique": [
+    0
+  ],
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#center": 0,
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#halfrange": 0,
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#max": 0,
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#mean": 0.0,
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#min": 0,
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#range": 0,
+  "##choices#env#CAFFE_COMPUTE_DEVICE_ID#repeats": 1,
+  "##choices#env#CK_CAFFE_BATCH_SIZE#all": [
+    "56"
+  ],
+  "##choices#env#CK_CAFFE_BATCH_SIZE#all_unique": [
+    "56"
+  ],
+  "##choices#env#CK_CAFFE_BATCH_SIZE#min": "56",
+  "##choices#env#CK_CAFFE_BATCH_SIZE#repeats": 1,
+  "##choices#env#CK_CAFFE_ITERATIONS#all": [
+    8
+  ],
+  "##choices#env#CK_CAFFE_ITERATIONS#all_unique": [
+    8
+  ],
+  "##choices#env#CK_CAFFE_ITERATIONS#center": 8,
+  "##choices#env#CK_CAFFE_ITERATIONS#halfrange": 0,
+  "##choices#env#CK_CAFFE_ITERATIONS#max": 8,
+  "##choices#env#CK_CAFFE_ITERATIONS#mean": 8.0,
+  "##choices#env#CK_CAFFE_ITERATIONS#min": 8,
+  "##choices#env#CK_CAFFE_ITERATIONS#range": 0,
+  "##choices#env#CK_CAFFE_ITERATIONS#range_percent": 0,
+  "##choices#env#CK_CAFFE_ITERATIONS#repeats": 1,
+  "##choices#env#CK_CAFFE_MODEL#all": [
+    "/home/gfursin/CK/ck-caffe/program/caffe/tmp/tmp-JQuwSO.prototxt"
+  ],
+  "##choices#env#CK_CAFFE_MODEL#all_unique": [
+    "/home/gfursin/CK/ck-caffe/program/caffe/tmp/tmp-JQuwSO.prototxt"
+  ],
+  "##choices#env#CK_CAFFE_MODEL#min": "/home/gfursin/CK/ck-caffe/program/caffe/tmp/tmp-JQuwSO.prototxt",
+  "##choices#env#CK_CAFFE_MODEL#repeats": 1,
+  "##choices#env#CK_CAFFE_MODEL_FILE#all": [
+    "tmp-JQuwSO.prototxt"
+  ],
+  "##choices#env#CK_CAFFE_MODEL_FILE#all_unique": [
+    "tmp-JQuwSO.prototxt"
+  ],
+  "##choices#env#CK_CAFFE_MODEL_FILE#min": "tmp-JQuwSO.prototxt",
+  "##choices#env#CK_CAFFE_MODEL_FILE#repeats": 1,
+  "##choices#env#CK_CAFFE_MODEL_MEAN_BIN#all": [
+    "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet_mean.binaryproto"
+  ],
+  "##choices#env#CK_CAFFE_MODEL_MEAN_BIN#all_unique": [
+    "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet_mean.binaryproto"
+  ],
+  "##choices#env#CK_CAFFE_MODEL_MEAN_BIN#min": "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet_mean.binaryproto",
+  "##choices#env#CK_CAFFE_MODEL_MEAN_BIN#repeats": 1,
+  "##choices#env#CK_CAFFE_MODEL_WEIGHTS#all": [
+    "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel"
+  ],
+  "##choices#env#CK_CAFFE_MODEL_WEIGHTS#all_unique": [
+    "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel"
+  ],
+  "##choices#env#CK_CAFFE_MODEL_WEIGHTS#min": "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel",
+  "##choices#env#CK_CAFFE_MODEL_WEIGHTS#repeats": 1,
+  "##choices#env#CK_CPU_FREQUENCY#all": [
+    "max"
+  ],
+  "##choices#env#CK_CPU_FREQUENCY#all_unique": [
+    "max"
+  ],
+  "##choices#env#CK_CPU_FREQUENCY#min": "max",
+  "##choices#env#CK_CPU_FREQUENCY#repeats": 1,
+  "##choices#env#CK_ENV_MODEL_CAFFE_WEIGHTS#all": [
+    "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel"
+  ],
+  "##choices#env#CK_ENV_MODEL_CAFFE_WEIGHTS#all_unique": [
+    "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel"
+  ],
+  "##choices#env#CK_ENV_MODEL_CAFFE_WEIGHTS#min": "/home/gfursin/CK-TOOLS/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel",
+  "##choices#env#CK_ENV_MODEL_CAFFE_WEIGHTS#repeats": 1,
+  "##choices#env#CK_GPU_FREQUENCY#all": [
+    "max"
+  ],
+  "##choices#env#CK_GPU_FREQUENCY#all_unique": [
+    "max"
+  ],
+  "##choices#env#CK_GPU_FREQUENCY#min": "max",
+  "##choices#env#CK_GPU_FREQUENCY#repeats": 1,
+  "##choices#extra_run_cmd#all": [
+    "-phase TEST"
+  ],
+  "##choices#extra_run_cmd#all_unique": [
+    "-phase TEST"
+  ],
+  "##choices#extra_run_cmd#min": "-phase TEST",
+  "##choices#extra_run_cmd#repeats": 1,
+  "##choices#flags#all": [
+    "-O3"
+  ],
+  "##choices#flags#all_unique": [
+    "-O3"
+  ],
+  "##choices#flags#min": "-O3",
+  "##choices#flags#repeats": 1,
+  "##choices#gpu_freq#all": [
+    "max"
+  ],
+  "##choices#gpu_freq#all_unique": [
+    "max"
+  ],
+  "##choices#gpu_freq#min": "max",
+  "##choices#gpu_freq#repeats": 1,
+  "##choices#host_os#all": [
+    "linux-64"
+  ],
+  "##choices#host_os#all_unique": [
+    "linux-64"
+  ],
+  "##choices#host_os#min": "linux-64",
+  "##choices#host_os#repeats": 1,
+  "##choices#module_uoa#all": [
+    "b0ac08fe1d3c2615"
+  ],
+  "##choices#module_uoa#all_unique": [
+    "b0ac08fe1d3c2615"
+  ],
+  "##choices#module_uoa#min": "b0ac08fe1d3c2615",
+  "##choices#module_uoa#repeats": 1,
+  "##choices#no_compile#all": [
+    "no"
+  ],
+  "##choices#no_compile#all_unique": [
+    "no"
+  ],
+  "##choices#no_compile#min": "no",
+  "##choices#no_compile#repeats": 1,
+  "##choices#no_state_check#all": [
+    "yes"
+  ],
+  "##choices#no_state_check#all_unique": [
+    "yes"
+  ],
+  "##choices#no_state_check#min": "yes",
+  "##choices#no_state_check#repeats": 1,
+  "##choices#skip_calibration#all": [
+    "yes"
+  ],
+  "##choices#skip_calibration#all_unique": [
+    "yes"
+  ],
+  "##choices#skip_calibration#min": "yes",
+  "##choices#skip_calibration#repeats": 1,
+  "##choices#skip_print_timers#all": [
+    "yes"
+  ],
+  "##choices#skip_print_timers#all_unique": [
+    "yes"
+  ],
+  "##choices#skip_print_timers#min": "yes",
+  "##choices#skip_print_timers#repeats": 1,
+  "##choices#target#all": [
+    ""
+  ],
+  "##choices#target#all_unique": [
+    ""
+  ],
+  "##choices#target#min": "",
+  "##choices#target#repeats": 1,
+  "##choices#target_os#all": [
+    "linux-64"
+  ],
+  "##choices#target_os#all_unique": [
+    "linux-64"
+  ],
+  "##choices#target_os#min": "linux-64",
+  "##choices#target_os#repeats": 1,
+  "##choices#target_os_bits#all": [
+    "64"
+  ],
+  "##choices#target_os_bits#all_unique": [
+    "64"
+  ],
+  "##choices#target_os_bits#min": "64",
+  "##choices#target_os_bits#repeats": 1,
+  "##features#compiler_version#raw#all": [
+    ""
+  ],
+  "##features#compiler_version#raw#all_unique": [
+    ""
+  ],
+  "##features#compiler_version#raw#min": "",
+  "##features#compiler_version#raw#repeats": 1,
+  "##features#compiler_version#str#all": [
+    ""
+  ],
+  "##features#compiler_version#str#all_unique": [
+    ""
+  ],
+  "##features#compiler_version#str#min": "",
+  "##features#compiler_version#str#repeats": 1,
+  "##features#cpu_freq#min": 2000,
+  "##features#freq#min": 2000,
+  "##features#model_size#min": 102462397,
+  "##features#number_of_selected_compiler_flags#all": [
+    0
+  ],
+  "##features#number_of_selected_compiler_flags#all_unique": [
+    0
+  ],
+  "##features#number_of_selected_compiler_flags#center": 0,
+  "##features#number_of_selected_compiler_flags#halfrange": 0,
+  "##features#number_of_selected_compiler_flags#max": 0,
+  "##features#number_of_selected_compiler_flags#mean": 0.0,
+  "##features#number_of_selected_compiler_flags#min": 0,
+  "##features#number_of_selected_compiler_flags#range": 0,
+  "##features#number_of_selected_compiler_flags#repeats": 1,
+  "##features#platform#cpu#cpu_abi#all": [
+    ""
+  ],
+  "##features#platform#cpu#cpu_abi#all_unique": [
+    ""
+  ],
+  "##features#platform#cpu#cpu_abi#min": "",
+  "##features#platform#cpu#cpu_abi#repeats": 1,
+  "##features#platform#cpu#cpu_features#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu#cpu_features#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu#cpu_features#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu#cpu_features#repeats": 1,
+  "##features#platform#cpu#current_freq#0#all": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#0#all_unique": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#0#center": 2000.162,
+  "##features#platform#cpu#current_freq#0#halfrange": 0.0,
+  "##features#platform#cpu#current_freq#0#max": 2000.162,
+  "##features#platform#cpu#current_freq#0#mean": 2000.162,
+  "##features#platform#cpu#current_freq#0#min": 2000.162,
+  "##features#platform#cpu#current_freq#0#range": 0.0,
+  "##features#platform#cpu#current_freq#0#range_percent": 0.0,
+  "##features#platform#cpu#current_freq#0#repeats": 1,
+  "##features#platform#cpu#current_freq#1#all": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#1#all_unique": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#1#center": 2000.162,
+  "##features#platform#cpu#current_freq#1#halfrange": 0.0,
+  "##features#platform#cpu#current_freq#1#max": 2000.162,
+  "##features#platform#cpu#current_freq#1#mean": 2000.162,
+  "##features#platform#cpu#current_freq#1#min": 2000.162,
+  "##features#platform#cpu#current_freq#1#range": 0.0,
+  "##features#platform#cpu#current_freq#1#range_percent": 0.0,
+  "##features#platform#cpu#current_freq#1#repeats": 1,
+  "##features#platform#cpu#current_freq#2#all": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#2#all_unique": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#2#center": 2000.162,
+  "##features#platform#cpu#current_freq#2#halfrange": 0.0,
+  "##features#platform#cpu#current_freq#2#max": 2000.162,
+  "##features#platform#cpu#current_freq#2#mean": 2000.162,
+  "##features#platform#cpu#current_freq#2#min": 2000.162,
+  "##features#platform#cpu#current_freq#2#range": 0.0,
+  "##features#platform#cpu#current_freq#2#range_percent": 0.0,
+  "##features#platform#cpu#current_freq#2#repeats": 1,
+  "##features#platform#cpu#current_freq#3#all": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#3#all_unique": [
+    2000.162
+  ],
+  "##features#platform#cpu#current_freq#3#center": 2000.162,
+  "##features#platform#cpu#current_freq#3#halfrange": 0.0,
+  "##features#platform#cpu#current_freq#3#max": 2000.162,
+  "##features#platform#cpu#current_freq#3#mean": 2000.162,
+  "##features#platform#cpu#current_freq#3#min": 2000.162,
+  "##features#platform#cpu#current_freq#3#range": 0.0,
+  "##features#platform#cpu#current_freq#3#range_percent": 0.0,
+  "##features#platform#cpu#current_freq#3#repeats": 1,
+  "##features#platform#cpu#max_freq#0#all": [
+    0
+  ],
+  "##features#platform#cpu#max_freq#0#all_unique": [
+    0
+  ],
+  "##features#platform#cpu#max_freq#0#center": 0,
+  "##features#platform#cpu#max_freq#0#halfrange": 0,
+  "##features#platform#cpu#max_freq#0#max": 0,
+  "##features#platform#cpu#max_freq#0#mean": 0.0,
+  "##features#platform#cpu#max_freq#0#min": 0,
+  "##features#platform#cpu#max_freq#0#range": 0,
+  "##features#platform#cpu#max_freq#0#repeats": 1,
+  "##features#platform#cpu#name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu#name#repeats": 1,
+  "##features#platform#cpu#num_proc#all": [
+    "4"
+  ],
+  "##features#platform#cpu#num_proc#all_unique": [
+    "4"
+  ],
+  "##features#platform#cpu#num_proc#min": "4",
+  "##features#platform#cpu#num_proc#repeats": 1,
+  "##features#platform#cpu#sub_name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#sub_name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#sub_name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu#sub_name#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#all": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#all_unique": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#center": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#halfrange": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#max": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#mean": 0.0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#min": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#range": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@0#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#all": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#all_unique": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#center": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#halfrange": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#max": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#mean": 0.0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#min": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#range": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@1#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#all": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#all_unique": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#center": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#halfrange": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#max": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#mean": 0.0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#min": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#range": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@2#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#all": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#all_unique": [
+    0
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#center": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#halfrange": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#max": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#mean": 0.0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#min": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#range": 0,
+  "##features#platform#cpu#workload_automation#device_config#core_clusters@3#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_names@0#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@0#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@0#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu#workload_automation#device_config#core_names@0#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_names@1#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@1#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@1#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu#workload_automation#device_config#core_names@1#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_names@2#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@2#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@2#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu#workload_automation#device_config#core_names@2#repeats": 1,
+  "##features#platform#cpu#workload_automation#device_config#core_names@3#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@3#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu#workload_automation#device_config#core_names@3#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu#workload_automation#device_config#core_names@3#repeats": 1,
+  "##features#platform#cpu_misc#0#address sizes#all": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#0#address sizes#all_unique": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#0#address sizes#min": "46 bits physical, 48 bits virtual",
+  "##features#platform#cpu_misc#0#address sizes#repeats": 1,
+  "##features#platform#cpu_misc#0#apicid#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#apicid#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#apicid#min": "0",
+  "##features#platform#cpu_misc#0#apicid#repeats": 1,
+  "##features#platform#cpu_misc#0#bogomips#all": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#0#bogomips#all_unique": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#0#bogomips#min": "4000.32",
+  "##features#platform#cpu_misc#0#bogomips#repeats": 1,
+  "##features#platform#cpu_misc#0#bugs#all": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#0#bugs#all_unique": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#0#bugs#min": "cpu_meltdown spectre_v1 spectre_v2",
+  "##features#platform#cpu_misc#0#bugs#repeats": 1,
+  "##features#platform#cpu_misc#0#cache size#all": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#0#cache size#all_unique": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#0#cache size#min": "56320 KB",
+  "##features#platform#cpu_misc#0#cache size#repeats": 1,
+  "##features#platform#cpu_misc#0#cache_alignment#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#0#cache_alignment#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#0#cache_alignment#min": "64",
+  "##features#platform#cpu_misc#0#cache_alignment#repeats": 1,
+  "##features#platform#cpu_misc#0#ck_cpu_name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#0#ck_cpu_name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#0#ck_cpu_name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#0#ck_cpu_name#repeats": 1,
+  "##features#platform#cpu_misc#0#ck_cpu_subname#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#0#ck_cpu_subname#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#0#ck_cpu_subname#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#0#ck_cpu_subname#repeats": 1,
+  "##features#platform#cpu_misc#0#clflush size#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#0#clflush size#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#0#clflush size#min": "64",
+  "##features#platform#cpu_misc#0#clflush size#repeats": 1,
+  "##features#platform#cpu_misc#0#core id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#core id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#core id#min": "0",
+  "##features#platform#cpu_misc#0#core id#repeats": 1,
+  "##features#platform#cpu_misc#0#cpu MHz#all": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#0#cpu MHz#all_unique": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#0#cpu MHz#min": "2000.162",
+  "##features#platform#cpu_misc#0#cpu MHz#repeats": 1,
+  "##features#platform#cpu_misc#0#cpu cores#all": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#0#cpu cores#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#0#cpu cores#min": "2",
+  "##features#platform#cpu_misc#0#cpu cores#repeats": 1,
+  "##features#platform#cpu_misc#0#cpu family#all": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#0#cpu family#all_unique": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#0#cpu family#min": "6",
+  "##features#platform#cpu_misc#0#cpu family#repeats": 1,
+  "##features#platform#cpu_misc#0#cpu_features#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#0#cpu_features#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#0#cpu_features#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#0#cpu_features#repeats": 1,
+  "##features#platform#cpu_misc#0#cpuid level#all": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#0#cpuid level#all_unique": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#0#cpuid level#min": "13",
+  "##features#platform#cpu_misc#0#cpuid level#repeats": 1,
+  "##features#platform#cpu_misc#0#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#0#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#0#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#0#flags#repeats": 1,
+  "##features#platform#cpu_misc#0#fpu#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#0#fpu#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#0#fpu#min": "yes",
+  "##features#platform#cpu_misc#0#fpu#repeats": 1,
+  "##features#platform#cpu_misc#0#fpu_exception#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#0#fpu_exception#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#0#fpu_exception#min": "yes",
+  "##features#platform#cpu_misc#0#fpu_exception#repeats": 1,
+  "##features#platform#cpu_misc#0#initial apicid#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#initial apicid#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#initial apicid#min": "0",
+  "##features#platform#cpu_misc#0#initial apicid#repeats": 1,
+  "##features#platform#cpu_misc#0#microcode#all": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#0#microcode#all_unique": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#0#microcode#min": "0x1",
+  "##features#platform#cpu_misc#0#microcode#repeats": 1,
+  "##features#platform#cpu_misc#0#model name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#0#model name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#0#model name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#0#model name#repeats": 1,
+  "##features#platform#cpu_misc#0#model#all": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#0#model#all_unique": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#0#model#min": "85",
+  "##features#platform#cpu_misc#0#model#repeats": 1,
+  "##features#platform#cpu_misc#0#physical id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#physical id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#physical id#min": "0",
+  "##features#platform#cpu_misc#0#physical id#repeats": 1,
+  "##features#platform#cpu_misc#0#power management#all": [
+    ""
+  ],
+  "##features#platform#cpu_misc#0#power management#all_unique": [
+    ""
+  ],
+  "##features#platform#cpu_misc#0#power management#min": "",
+  "##features#platform#cpu_misc#0#power management#repeats": 1,
+  "##features#platform#cpu_misc#0#processor#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#processor#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#0#processor#min": "0",
+  "##features#platform#cpu_misc#0#processor#repeats": 1,
+  "##features#platform#cpu_misc#0#siblings#all": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#0#siblings#all_unique": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#0#siblings#min": "4",
+  "##features#platform#cpu_misc#0#siblings#repeats": 1,
+  "##features#platform#cpu_misc#0#stepping#all": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#0#stepping#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#0#stepping#min": "3",
+  "##features#platform#cpu_misc#0#stepping#repeats": 1,
+  "##features#platform#cpu_misc#0#vendor_id#all": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#0#vendor_id#all_unique": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#0#vendor_id#min": "GenuineIntel",
+  "##features#platform#cpu_misc#0#vendor_id#repeats": 1,
+  "##features#platform#cpu_misc#0#wp#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#0#wp#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#0#wp#min": "yes",
+  "##features#platform#cpu_misc#0#wp#repeats": 1,
+  "##features#platform#cpu_misc#1#address sizes#all": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#1#address sizes#all_unique": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#1#address sizes#min": "46 bits physical, 48 bits virtual",
+  "##features#platform#cpu_misc#1#address sizes#repeats": 1,
+  "##features#platform#cpu_misc#1#apicid#all": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#1#apicid#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#1#apicid#min": "2",
+  "##features#platform#cpu_misc#1#apicid#repeats": 1,
+  "##features#platform#cpu_misc#1#bogomips#all": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#1#bogomips#all_unique": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#1#bogomips#min": "4000.32",
+  "##features#platform#cpu_misc#1#bogomips#repeats": 1,
+  "##features#platform#cpu_misc#1#bugs#all": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#1#bugs#all_unique": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#1#bugs#min": "cpu_meltdown spectre_v1 spectre_v2",
+  "##features#platform#cpu_misc#1#bugs#repeats": 1,
+  "##features#platform#cpu_misc#1#cache size#all": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#1#cache size#all_unique": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#1#cache size#min": "56320 KB",
+  "##features#platform#cpu_misc#1#cache size#repeats": 1,
+  "##features#platform#cpu_misc#1#cache_alignment#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#1#cache_alignment#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#1#cache_alignment#min": "64",
+  "##features#platform#cpu_misc#1#cache_alignment#repeats": 1,
+  "##features#platform#cpu_misc#1#ck_cpu_name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#1#ck_cpu_name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#1#ck_cpu_name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#1#ck_cpu_name#repeats": 1,
+  "##features#platform#cpu_misc#1#ck_cpu_subname#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#1#ck_cpu_subname#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#1#ck_cpu_subname#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#1#ck_cpu_subname#repeats": 1,
+  "##features#platform#cpu_misc#1#clflush size#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#1#clflush size#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#1#clflush size#min": "64",
+  "##features#platform#cpu_misc#1#clflush size#repeats": 1,
+  "##features#platform#cpu_misc#1#core id#all": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#1#core id#all_unique": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#1#core id#min": "1",
+  "##features#platform#cpu_misc#1#core id#repeats": 1,
+  "##features#platform#cpu_misc#1#cpu MHz#all": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#1#cpu MHz#all_unique": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#1#cpu MHz#min": "2000.162",
+  "##features#platform#cpu_misc#1#cpu MHz#repeats": 1,
+  "##features#platform#cpu_misc#1#cpu cores#all": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#1#cpu cores#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#1#cpu cores#min": "2",
+  "##features#platform#cpu_misc#1#cpu cores#repeats": 1,
+  "##features#platform#cpu_misc#1#cpu family#all": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#1#cpu family#all_unique": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#1#cpu family#min": "6",
+  "##features#platform#cpu_misc#1#cpu family#repeats": 1,
+  "##features#platform#cpu_misc#1#cpu_features#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#1#cpu_features#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#1#cpu_features#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#1#cpu_features#repeats": 1,
+  "##features#platform#cpu_misc#1#cpuid level#all": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#1#cpuid level#all_unique": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#1#cpuid level#min": "13",
+  "##features#platform#cpu_misc#1#cpuid level#repeats": 1,
+  "##features#platform#cpu_misc#1#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#1#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#1#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#1#flags#repeats": 1,
+  "##features#platform#cpu_misc#1#fpu#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#1#fpu#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#1#fpu#min": "yes",
+  "##features#platform#cpu_misc#1#fpu#repeats": 1,
+  "##features#platform#cpu_misc#1#fpu_exception#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#1#fpu_exception#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#1#fpu_exception#min": "yes",
+  "##features#platform#cpu_misc#1#fpu_exception#repeats": 1,
+  "##features#platform#cpu_misc#1#initial apicid#all": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#1#initial apicid#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#1#initial apicid#min": "2",
+  "##features#platform#cpu_misc#1#initial apicid#repeats": 1,
+  "##features#platform#cpu_misc#1#microcode#all": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#1#microcode#all_unique": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#1#microcode#min": "0x1",
+  "##features#platform#cpu_misc#1#microcode#repeats": 1,
+  "##features#platform#cpu_misc#1#model name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#1#model name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#1#model name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#1#model name#repeats": 1,
+  "##features#platform#cpu_misc#1#model#all": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#1#model#all_unique": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#1#model#min": "85",
+  "##features#platform#cpu_misc#1#model#repeats": 1,
+  "##features#platform#cpu_misc#1#physical id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#1#physical id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#1#physical id#min": "0",
+  "##features#platform#cpu_misc#1#physical id#repeats": 1,
+  "##features#platform#cpu_misc#1#power management#all": [
+    ""
+  ],
+  "##features#platform#cpu_misc#1#power management#all_unique": [
+    ""
+  ],
+  "##features#platform#cpu_misc#1#power management#min": "",
+  "##features#platform#cpu_misc#1#power management#repeats": 1,
+  "##features#platform#cpu_misc#1#processor#all": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#1#processor#all_unique": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#1#processor#min": "1",
+  "##features#platform#cpu_misc#1#processor#repeats": 1,
+  "##features#platform#cpu_misc#1#siblings#all": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#1#siblings#all_unique": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#1#siblings#min": "4",
+  "##features#platform#cpu_misc#1#siblings#repeats": 1,
+  "##features#platform#cpu_misc#1#stepping#all": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#1#stepping#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#1#stepping#min": "3",
+  "##features#platform#cpu_misc#1#stepping#repeats": 1,
+  "##features#platform#cpu_misc#1#vendor_id#all": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#1#vendor_id#all_unique": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#1#vendor_id#min": "GenuineIntel",
+  "##features#platform#cpu_misc#1#vendor_id#repeats": 1,
+  "##features#platform#cpu_misc#1#wp#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#1#wp#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#1#wp#min": "yes",
+  "##features#platform#cpu_misc#1#wp#repeats": 1,
+  "##features#platform#cpu_misc#2#address sizes#all": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#2#address sizes#all_unique": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#2#address sizes#min": "46 bits physical, 48 bits virtual",
+  "##features#platform#cpu_misc#2#address sizes#repeats": 1,
+  "##features#platform#cpu_misc#2#apicid#all": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#2#apicid#all_unique": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#2#apicid#min": "1",
+  "##features#platform#cpu_misc#2#apicid#repeats": 1,
+  "##features#platform#cpu_misc#2#bogomips#all": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#2#bogomips#all_unique": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#2#bogomips#min": "4000.32",
+  "##features#platform#cpu_misc#2#bogomips#repeats": 1,
+  "##features#platform#cpu_misc#2#bugs#all": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#2#bugs#all_unique": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#2#bugs#min": "cpu_meltdown spectre_v1 spectre_v2",
+  "##features#platform#cpu_misc#2#bugs#repeats": 1,
+  "##features#platform#cpu_misc#2#cache size#all": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#2#cache size#all_unique": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#2#cache size#min": "56320 KB",
+  "##features#platform#cpu_misc#2#cache size#repeats": 1,
+  "##features#platform#cpu_misc#2#cache_alignment#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#2#cache_alignment#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#2#cache_alignment#min": "64",
+  "##features#platform#cpu_misc#2#cache_alignment#repeats": 1,
+  "##features#platform#cpu_misc#2#ck_cpu_name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#2#ck_cpu_name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#2#ck_cpu_name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#2#ck_cpu_name#repeats": 1,
+  "##features#platform#cpu_misc#2#ck_cpu_subname#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#2#ck_cpu_subname#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#2#ck_cpu_subname#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#2#ck_cpu_subname#repeats": 1,
+  "##features#platform#cpu_misc#2#clflush size#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#2#clflush size#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#2#clflush size#min": "64",
+  "##features#platform#cpu_misc#2#clflush size#repeats": 1,
+  "##features#platform#cpu_misc#2#core id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#2#core id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#2#core id#min": "0",
+  "##features#platform#cpu_misc#2#core id#repeats": 1,
+  "##features#platform#cpu_misc#2#cpu MHz#all": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#2#cpu MHz#all_unique": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#2#cpu MHz#min": "2000.162",
+  "##features#platform#cpu_misc#2#cpu MHz#repeats": 1,
+  "##features#platform#cpu_misc#2#cpu cores#all": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#2#cpu cores#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#2#cpu cores#min": "2",
+  "##features#platform#cpu_misc#2#cpu cores#repeats": 1,
+  "##features#platform#cpu_misc#2#cpu family#all": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#2#cpu family#all_unique": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#2#cpu family#min": "6",
+  "##features#platform#cpu_misc#2#cpu family#repeats": 1,
+  "##features#platform#cpu_misc#2#cpu_features#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#2#cpu_features#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#2#cpu_features#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#2#cpu_features#repeats": 1,
+  "##features#platform#cpu_misc#2#cpuid level#all": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#2#cpuid level#all_unique": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#2#cpuid level#min": "13",
+  "##features#platform#cpu_misc#2#cpuid level#repeats": 1,
+  "##features#platform#cpu_misc#2#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#2#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#2#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#2#flags#repeats": 1,
+  "##features#platform#cpu_misc#2#fpu#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#2#fpu#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#2#fpu#min": "yes",
+  "##features#platform#cpu_misc#2#fpu#repeats": 1,
+  "##features#platform#cpu_misc#2#fpu_exception#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#2#fpu_exception#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#2#fpu_exception#min": "yes",
+  "##features#platform#cpu_misc#2#fpu_exception#repeats": 1,
+  "##features#platform#cpu_misc#2#initial apicid#all": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#2#initial apicid#all_unique": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#2#initial apicid#min": "1",
+  "##features#platform#cpu_misc#2#initial apicid#repeats": 1,
+  "##features#platform#cpu_misc#2#microcode#all": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#2#microcode#all_unique": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#2#microcode#min": "0x1",
+  "##features#platform#cpu_misc#2#microcode#repeats": 1,
+  "##features#platform#cpu_misc#2#model name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#2#model name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#2#model name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#2#model name#repeats": 1,
+  "##features#platform#cpu_misc#2#model#all": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#2#model#all_unique": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#2#model#min": "85",
+  "##features#platform#cpu_misc#2#model#repeats": 1,
+  "##features#platform#cpu_misc#2#physical id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#2#physical id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#2#physical id#min": "0",
+  "##features#platform#cpu_misc#2#physical id#repeats": 1,
+  "##features#platform#cpu_misc#2#power management#all": [
+    ""
+  ],
+  "##features#platform#cpu_misc#2#power management#all_unique": [
+    ""
+  ],
+  "##features#platform#cpu_misc#2#power management#min": "",
+  "##features#platform#cpu_misc#2#power management#repeats": 1,
+  "##features#platform#cpu_misc#2#processor#all": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#2#processor#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#2#processor#min": "2",
+  "##features#platform#cpu_misc#2#processor#repeats": 1,
+  "##features#platform#cpu_misc#2#siblings#all": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#2#siblings#all_unique": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#2#siblings#min": "4",
+  "##features#platform#cpu_misc#2#siblings#repeats": 1,
+  "##features#platform#cpu_misc#2#stepping#all": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#2#stepping#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#2#stepping#min": "3",
+  "##features#platform#cpu_misc#2#stepping#repeats": 1,
+  "##features#platform#cpu_misc#2#vendor_id#all": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#2#vendor_id#all_unique": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#2#vendor_id#min": "GenuineIntel",
+  "##features#platform#cpu_misc#2#vendor_id#repeats": 1,
+  "##features#platform#cpu_misc#2#wp#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#2#wp#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#2#wp#min": "yes",
+  "##features#platform#cpu_misc#2#wp#repeats": 1,
+  "##features#platform#cpu_misc#3#address sizes#all": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#3#address sizes#all_unique": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_misc#3#address sizes#min": "46 bits physical, 48 bits virtual",
+  "##features#platform#cpu_misc#3#address sizes#repeats": 1,
+  "##features#platform#cpu_misc#3#apicid#all": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#apicid#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#apicid#min": "3",
+  "##features#platform#cpu_misc#3#apicid#repeats": 1,
+  "##features#platform#cpu_misc#3#bogomips#all": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#3#bogomips#all_unique": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_misc#3#bogomips#min": "4000.32",
+  "##features#platform#cpu_misc#3#bogomips#repeats": 1,
+  "##features#platform#cpu_misc#3#bugs#all": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#3#bugs#all_unique": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_misc#3#bugs#min": "cpu_meltdown spectre_v1 spectre_v2",
+  "##features#platform#cpu_misc#3#bugs#repeats": 1,
+  "##features#platform#cpu_misc#3#cache size#all": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#3#cache size#all_unique": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_misc#3#cache size#min": "56320 KB",
+  "##features#platform#cpu_misc#3#cache size#repeats": 1,
+  "##features#platform#cpu_misc#3#cache_alignment#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#3#cache_alignment#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#3#cache_alignment#min": "64",
+  "##features#platform#cpu_misc#3#cache_alignment#repeats": 1,
+  "##features#platform#cpu_misc#3#ck_cpu_name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#3#ck_cpu_name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#3#ck_cpu_name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#3#ck_cpu_name#repeats": 1,
+  "##features#platform#cpu_misc#3#ck_cpu_subname#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#3#ck_cpu_subname#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#3#ck_cpu_subname#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#3#ck_cpu_subname#repeats": 1,
+  "##features#platform#cpu_misc#3#clflush size#all": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#3#clflush size#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_misc#3#clflush size#min": "64",
+  "##features#platform#cpu_misc#3#clflush size#repeats": 1,
+  "##features#platform#cpu_misc#3#core id#all": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#3#core id#all_unique": [
+    "1"
+  ],
+  "##features#platform#cpu_misc#3#core id#min": "1",
+  "##features#platform#cpu_misc#3#core id#repeats": 1,
+  "##features#platform#cpu_misc#3#cpu MHz#all": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#3#cpu MHz#all_unique": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_misc#3#cpu MHz#min": "2000.162",
+  "##features#platform#cpu_misc#3#cpu MHz#repeats": 1,
+  "##features#platform#cpu_misc#3#cpu cores#all": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#3#cpu cores#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_misc#3#cpu cores#min": "2",
+  "##features#platform#cpu_misc#3#cpu cores#repeats": 1,
+  "##features#platform#cpu_misc#3#cpu family#all": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#3#cpu family#all_unique": [
+    "6"
+  ],
+  "##features#platform#cpu_misc#3#cpu family#min": "6",
+  "##features#platform#cpu_misc#3#cpu family#repeats": 1,
+  "##features#platform#cpu_misc#3#cpu_features#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#3#cpu_features#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#3#cpu_features#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#3#cpu_features#repeats": 1,
+  "##features#platform#cpu_misc#3#cpuid level#all": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#3#cpuid level#all_unique": [
+    "13"
+  ],
+  "##features#platform#cpu_misc#3#cpuid level#min": "13",
+  "##features#platform#cpu_misc#3#cpuid level#repeats": 1,
+  "##features#platform#cpu_misc#3#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#3#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_misc#3#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_misc#3#flags#repeats": 1,
+  "##features#platform#cpu_misc#3#fpu#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#3#fpu#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#3#fpu#min": "yes",
+  "##features#platform#cpu_misc#3#fpu#repeats": 1,
+  "##features#platform#cpu_misc#3#fpu_exception#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#3#fpu_exception#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#3#fpu_exception#min": "yes",
+  "##features#platform#cpu_misc#3#fpu_exception#repeats": 1,
+  "##features#platform#cpu_misc#3#initial apicid#all": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#initial apicid#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#initial apicid#min": "3",
+  "##features#platform#cpu_misc#3#initial apicid#repeats": 1,
+  "##features#platform#cpu_misc#3#microcode#all": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#3#microcode#all_unique": [
+    "0x1"
+  ],
+  "##features#platform#cpu_misc#3#microcode#min": "0x1",
+  "##features#platform#cpu_misc#3#microcode#repeats": 1,
+  "##features#platform#cpu_misc#3#model name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#3#model name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_misc#3#model name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_misc#3#model name#repeats": 1,
+  "##features#platform#cpu_misc#3#model#all": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#3#model#all_unique": [
+    "85"
+  ],
+  "##features#platform#cpu_misc#3#model#min": "85",
+  "##features#platform#cpu_misc#3#model#repeats": 1,
+  "##features#platform#cpu_misc#3#physical id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#3#physical id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_misc#3#physical id#min": "0",
+  "##features#platform#cpu_misc#3#physical id#repeats": 1,
+  "##features#platform#cpu_misc#3#power management#all": [
+    ""
+  ],
+  "##features#platform#cpu_misc#3#power management#all_unique": [
+    ""
+  ],
+  "##features#platform#cpu_misc#3#power management#min": "",
+  "##features#platform#cpu_misc#3#power management#repeats": 1,
+  "##features#platform#cpu_misc#3#processor#all": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#processor#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#processor#min": "3",
+  "##features#platform#cpu_misc#3#processor#repeats": 1,
+  "##features#platform#cpu_misc#3#siblings#all": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#3#siblings#all_unique": [
+    "4"
+  ],
+  "##features#platform#cpu_misc#3#siblings#min": "4",
+  "##features#platform#cpu_misc#3#siblings#repeats": 1,
+  "##features#platform#cpu_misc#3#stepping#all": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#stepping#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_misc#3#stepping#min": "3",
+  "##features#platform#cpu_misc#3#stepping#repeats": 1,
+  "##features#platform#cpu_misc#3#vendor_id#all": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#3#vendor_id#all_unique": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_misc#3#vendor_id#min": "GenuineIntel",
+  "##features#platform#cpu_misc#3#vendor_id#repeats": 1,
+  "##features#platform#cpu_misc#3#wp#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#3#wp#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_misc#3#wp#min": "yes",
+  "##features#platform#cpu_misc#3#wp#repeats": 1,
+  "##features#platform#cpu_new_format#all": [
+    ""
+  ],
+  "##features#platform#cpu_new_format#all_unique": [
+    ""
+  ],
+  "##features#platform#cpu_new_format#min": "",
+  "##features#platform#cpu_new_format#repeats": 1,
+  "##features#platform#cpu_unique@0#address sizes#all": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_unique@0#address sizes#all_unique": [
+    "46 bits physical, 48 bits virtual"
+  ],
+  "##features#platform#cpu_unique@0#address sizes#min": "46 bits physical, 48 bits virtual",
+  "##features#platform#cpu_unique@0#address sizes#repeats": 1,
+  "##features#platform#cpu_unique@0#apicid#all": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#apicid#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#apicid#min": "0",
+  "##features#platform#cpu_unique@0#apicid#repeats": 1,
+  "##features#platform#cpu_unique@0#bogomips#all": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_unique@0#bogomips#all_unique": [
+    "4000.32"
+  ],
+  "##features#platform#cpu_unique@0#bogomips#min": "4000.32",
+  "##features#platform#cpu_unique@0#bogomips#repeats": 1,
+  "##features#platform#cpu_unique@0#bugs#all": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_unique@0#bugs#all_unique": [
+    "cpu_meltdown spectre_v1 spectre_v2"
+  ],
+  "##features#platform#cpu_unique@0#bugs#min": "cpu_meltdown spectre_v1 spectre_v2",
+  "##features#platform#cpu_unique@0#bugs#repeats": 1,
+  "##features#platform#cpu_unique@0#cache size#all": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_unique@0#cache size#all_unique": [
+    "56320 KB"
+  ],
+  "##features#platform#cpu_unique@0#cache size#min": "56320 KB",
+  "##features#platform#cpu_unique@0#cache size#repeats": 1,
+  "##features#platform#cpu_unique@0#cache_alignment#all": [
+    "64"
+  ],
+  "##features#platform#cpu_unique@0#cache_alignment#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_unique@0#cache_alignment#min": "64",
+  "##features#platform#cpu_unique@0#cache_alignment#repeats": 1,
+  "##features#platform#cpu_unique@0#ck_cpu_name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_unique@0#ck_cpu_name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_unique@0#ck_cpu_name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_unique@0#ck_cpu_name#repeats": 1,
+  "##features#platform#cpu_unique@0#ck_cpu_subname#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_unique@0#ck_cpu_subname#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_unique@0#ck_cpu_subname#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_unique@0#ck_cpu_subname#repeats": 1,
+  "##features#platform#cpu_unique@0#clflush size#all": [
+    "64"
+  ],
+  "##features#platform#cpu_unique@0#clflush size#all_unique": [
+    "64"
+  ],
+  "##features#platform#cpu_unique@0#clflush size#min": "64",
+  "##features#platform#cpu_unique@0#clflush size#repeats": 1,
+  "##features#platform#cpu_unique@0#core id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#core id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#core id#min": "0",
+  "##features#platform#cpu_unique@0#core id#repeats": 1,
+  "##features#platform#cpu_unique@0#cpu MHz#all": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_unique@0#cpu MHz#all_unique": [
+    "2000.162"
+  ],
+  "##features#platform#cpu_unique@0#cpu MHz#min": "2000.162",
+  "##features#platform#cpu_unique@0#cpu MHz#repeats": 1,
+  "##features#platform#cpu_unique@0#cpu cores#all": [
+    "2"
+  ],
+  "##features#platform#cpu_unique@0#cpu cores#all_unique": [
+    "2"
+  ],
+  "##features#platform#cpu_unique@0#cpu cores#min": "2",
+  "##features#platform#cpu_unique@0#cpu cores#repeats": 1,
+  "##features#platform#cpu_unique@0#cpu family#all": [
+    "6"
+  ],
+  "##features#platform#cpu_unique@0#cpu family#all_unique": [
+    "6"
+  ],
+  "##features#platform#cpu_unique@0#cpu family#min": "6",
+  "##features#platform#cpu_unique@0#cpu family#repeats": 1,
+  "##features#platform#cpu_unique@0#cpu_features#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_unique@0#cpu_features#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_unique@0#cpu_features#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_unique@0#cpu_features#repeats": 1,
+  "##features#platform#cpu_unique@0#cpuid level#all": [
+    "13"
+  ],
+  "##features#platform#cpu_unique@0#cpuid level#all_unique": [
+    "13"
+  ],
+  "##features#platform#cpu_unique@0#cpuid level#min": "13",
+  "##features#platform#cpu_unique@0#cpuid level#repeats": 1,
+  "##features#platform#cpu_unique@0#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_unique@0#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves"
+  ],
+  "##features#platform#cpu_unique@0#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti retpoline rsb_ctxsw fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves",
+  "##features#platform#cpu_unique@0#flags#repeats": 1,
+  "##features#platform#cpu_unique@0#fpu#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_unique@0#fpu#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_unique@0#fpu#min": "yes",
+  "##features#platform#cpu_unique@0#fpu#repeats": 1,
+  "##features#platform#cpu_unique@0#fpu_exception#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_unique@0#fpu_exception#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_unique@0#fpu_exception#min": "yes",
+  "##features#platform#cpu_unique@0#fpu_exception#repeats": 1,
+  "##features#platform#cpu_unique@0#initial apicid#all": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#initial apicid#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#initial apicid#min": "0",
+  "##features#platform#cpu_unique@0#initial apicid#repeats": 1,
+  "##features#platform#cpu_unique@0#microcode#all": [
+    "0x1"
+  ],
+  "##features#platform#cpu_unique@0#microcode#all_unique": [
+    "0x1"
+  ],
+  "##features#platform#cpu_unique@0#microcode#min": "0x1",
+  "##features#platform#cpu_unique@0#microcode#repeats": 1,
+  "##features#platform#cpu_unique@0#model name#all": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_unique@0#model name#all_unique": [
+    "Intel(R) Xeon(R) CPU"
+  ],
+  "##features#platform#cpu_unique@0#model name#min": "Intel(R) Xeon(R) CPU",
+  "##features#platform#cpu_unique@0#model name#repeats": 1,
+  "##features#platform#cpu_unique@0#model#all": [
+    "85"
+  ],
+  "##features#platform#cpu_unique@0#model#all_unique": [
+    "85"
+  ],
+  "##features#platform#cpu_unique@0#model#min": "85",
+  "##features#platform#cpu_unique@0#model#repeats": 1,
+  "##features#platform#cpu_unique@0#physical id#all": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#physical id#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#physical id#min": "0",
+  "##features#platform#cpu_unique@0#physical id#repeats": 1,
+  "##features#platform#cpu_unique@0#power management#all": [
+    ""
+  ],
+  "##features#platform#cpu_unique@0#power management#all_unique": [
+    ""
+  ],
+  "##features#platform#cpu_unique@0#power management#min": "",
+  "##features#platform#cpu_unique@0#power management#repeats": 1,
+  "##features#platform#cpu_unique@0#processor#all": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#processor#all_unique": [
+    "0"
+  ],
+  "##features#platform#cpu_unique@0#processor#min": "0",
+  "##features#platform#cpu_unique@0#processor#repeats": 1,
+  "##features#platform#cpu_unique@0#siblings#all": [
+    "4"
+  ],
+  "##features#platform#cpu_unique@0#siblings#all_unique": [
+    "4"
+  ],
+  "##features#platform#cpu_unique@0#siblings#min": "4",
+  "##features#platform#cpu_unique@0#siblings#repeats": 1,
+  "##features#platform#cpu_unique@0#stepping#all": [
+    "3"
+  ],
+  "##features#platform#cpu_unique@0#stepping#all_unique": [
+    "3"
+  ],
+  "##features#platform#cpu_unique@0#stepping#min": "3",
+  "##features#platform#cpu_unique@0#stepping#repeats": 1,
+  "##features#platform#cpu_unique@0#vendor_id#all": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_unique@0#vendor_id#all_unique": [
+    "GenuineIntel"
+  ],
+  "##features#platform#cpu_unique@0#vendor_id#min": "GenuineIntel",
+  "##features#platform#cpu_unique@0#vendor_id#repeats": 1,
+  "##features#platform#cpu_unique@0#wp#all": [
+    "yes"
+  ],
+  "##features#platform#cpu_unique@0#wp#all_unique": [
+    "yes"
+  ],
+  "##features#platform#cpu_unique@0#wp#min": "yes",
+  "##features#platform#cpu_unique@0#wp#repeats": 1,
+  "##features#platform#gpu#name#all": [
+    "Red Hat, Inc Virtio SCSI"
+  ],
+  "##features#platform#gpu#name#all_unique": [
+    "Red Hat, Inc Virtio SCSI"
+  ],
+  "##features#platform#gpu#name#min": "Red Hat, Inc Virtio SCSI",
+  "##features#platform#gpu#name#repeats": 1,
+  "##features#platform#gpu#vendor#all": [
+    "Red"
+  ],
+  "##features#platform#gpu#vendor#all_unique": [
+    "Red"
+  ],
+  "##features#platform#gpu#vendor#min": "Red",
+  "##features#platform#gpu#vendor#repeats": 1,
+  "##features#platform#os#abi#all": [
+    "x86_64"
+  ],
+  "##features#platform#os#abi#all_unique": [
+    "x86_64"
+  ],
+  "##features#platform#os#abi#min": "x86_64",
+  "##features#platform#os#abi#repeats": 1,
+  "##features#platform#os#bits#all": [
+    "64"
+  ],
+  "##features#platform#os#bits#all_unique": [
+    "64"
+  ],
+  "##features#platform#os#bits#min": "64",
+  "##features#platform#os#bits#repeats": 1,
+  "##features#platform#os#ck_os_base_uoa#all": [
+    ""
+  ],
+  "##features#platform#os#ck_os_base_uoa#all_unique": [
+    ""
+  ],
+  "##features#platform#os#ck_os_base_uoa#min": "",
+  "##features#platform#os#ck_os_base_uoa#repeats": 1,
+  "##features#platform#os#ck_os_uoa#all": [
+    "linux-64"
+  ],
+  "##features#platform#os#ck_os_uoa#all_unique": [
+    "linux-64"
+  ],
+  "##features#platform#os#ck_os_uoa#min": "linux-64",
+  "##features#platform#os#ck_os_uoa#repeats": 1,
+  "##features#platform#os#name#all": [
+    "Ubuntu 16.04.4 LTS"
+  ],
+  "##features#platform#os#name#all_unique": [
+    "Ubuntu 16.04.4 LTS"
+  ],
+  "##features#platform#os#name#min": "Ubuntu 16.04.4 LTS",
+  "##features#platform#os#name#repeats": 1,
+  "##features#platform#os#name_long#all": [
+    "Linux-4.13.0-1011-gcp-x86_64-with-Ubuntu-16.04-xenial"
+  ],
+  "##features#platform#os#name_long#all_unique": [
+    "Linux-4.13.0-1011-gcp-x86_64-with-Ubuntu-16.04-xenial"
+  ],
+  "##features#platform#os#name_long#min": "Linux-4.13.0-1011-gcp-x86_64-with-Ubuntu-16.04-xenial",
+  "##features#platform#os#name_long#repeats": 1,
+  "##features#platform#os#name_short#all": [
+    "Linux 4.13.0"
+  ],
+  "##features#platform#os#name_short#all_unique": [
+    "Linux 4.13.0"
+  ],
+  "##features#platform#os#name_short#min": "Linux 4.13.0",
+  "##features#platform#os#name_short#repeats": 1,
+  "##features#platform#os#serial_number#all": [
+    ""
+  ],
+  "##features#platform#os#serial_number#all_unique": [
+    ""
+  ],
+  "##features#platform#os#serial_number#min": "",
+  "##features#platform#os#serial_number#repeats": 1,
+  "##features#platform#platform#model#all": [
+    "Google Compute Engine"
+  ],
+  "##features#platform#platform#model#all_unique": [
+    "Google Compute Engine"
+  ],
+  "##features#platform#platform#model#min": "Google Compute Engine",
+  "##features#platform#platform#model#repeats": 1,
+  "##features#platform#platform#name#all": [
+    "Google (Google Compute Engine)"
+  ],
+  "##features#platform#platform#name#all_unique": [
+    "Google (Google Compute Engine)"
+  ],
+  "##features#platform#platform#name#min": "Google (Google Compute Engine)",
+  "##features#platform#platform#name#repeats": 1,
+  "##features#platform#platform#vendor#all": [
+    "Google"
+  ],
+  "##features#platform#platform#vendor#all_unique": [
+    "Google"
+  ],
+  "##features#platform#platform#vendor#min": "Google",
+  "##features#platform#platform#vendor#repeats": 1,
+  "##features#processed#min": "yes",
+  "##features#statistical_repetitions#all": [
+    5
+  ],
+  "##features#statistical_repetitions#all_unique": [
+    5
+  ],
+  "##features#statistical_repetitions#center": 5,
+  "##features#statistical_repetitions#halfrange": 0,
+  "##features#statistical_repetitions#max": 5,
+  "##features#statistical_repetitions#mean": 5.0,
+  "##features#statistical_repetitions#min": 5,
+  "##features#statistical_repetitions#range": 0,
+  "##features#statistical_repetitions#range_percent": 0,
+  "##features#statistical_repetitions#repeats": 1,
+  "##pipeline_state#fail#all": [
+    "yes"
+  ],
+  "##pipeline_state#fail#all_unique": [
+    "yes"
+  ],
+  "##pipeline_state#fail#min": "yes",
+  "##pipeline_state#fail#repeats": 1,
+  "##pipeline_state#fail_bool#all": [
+    true
+  ],
+  "##pipeline_state#fail_bool#all_unique": [
+    true
+  ],
+  "##pipeline_state#fail_bool#min": true,
+  "##pipeline_state#fail_bool#repeats": 1,
+  "##pipeline_state#fail_reason#all": [
+    "execution failed - failed to find the 'Total Time' string in Caffe output"
+  ],
+  "##pipeline_state#fail_reason#all_unique": [
+    "execution failed - failed to find the 'Total Time' string in Caffe output"
+  ],
+  "##pipeline_state#fail_reason#min": "execution failed - failed to find the 'Total Time' string in Caffe output",
+  "##pipeline_state#fail_reason#repeats": 1,
+  "##pipeline_state#repetitions#all": [
+    5
+  ],
+  "##pipeline_state#repetitions#all_unique": [
+    5
+  ],
+  "##pipeline_state#repetitions#center": 5,
+  "##pipeline_state#repetitions#halfrange": 0,
+  "##pipeline_state#repetitions#max": 5,
+  "##pipeline_state#repetitions#mean": 5.0,
+  "##pipeline_state#repetitions#min": 5,
+  "##pipeline_state#repetitions#range": 0,
+  "##pipeline_state#repetitions#range_percent": 0,
+  "##pipeline_state#repetitions#repeats": 1
+}
