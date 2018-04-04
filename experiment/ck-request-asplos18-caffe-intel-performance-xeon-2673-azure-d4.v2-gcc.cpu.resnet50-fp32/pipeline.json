@@ -1,0 +1,2945 @@
+{
+  "cmd_key": "time_cpu", 
+  "tmp_dir": "", 
+  "features": {
+    "compiler_version": {
+      "raw": "", 
+      "list": [], 
+      "str": ""
+    }
+  }, 
+  "characteristics": {}, 
+  "no_clean": "no", 
+  "no_compile": "no", 
+  "choices": {
+    "cpu_freq": "max", 
+    "no_state_check": "yes", 
+    "target": "", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "energy": "no", 
+    "flags": "-O3", 
+    "dataset_file": "", 
+    "cmd_key": "time_cpu", 
+    "skip_print_timers": "yes", 
+    "skip_calibration": "yes", 
+    "env": {}, 
+    "target_os_bits": "64", 
+    "data_uoa": "caffe", 
+    "compile_type": "dynamic", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "target_os": "linux-64", 
+    "gpu_freq": "max"
+  }, 
+  "extra_run_cmd": "-phase TEST", 
+  "state": {
+    "tmp_dir": "tmp", 
+    "cur_dir": "/home/fursin/CK/ck-request-asplos18-caffe-intel/script/explore-batch-size-openmp-threads"
+  }, 
+  "dependencies": {
+    "dataset-imagenet-lmdb": {
+      "sort": 40, 
+      "for_run_time": "yes", 
+      "bat": ". /home/fursin/CK/local/env/8cfb46cd87488e2b/env.sh\n", 
+      "cus": {
+        "force_ask_path": "yes", 
+        "features": {
+          "resize_height": "320", 
+          "resize_width": "320", 
+          "number_of_original_images": 500, 
+          "shuffle": ""
+        }, 
+        "used_package_uoa": "73731fe84a489ca5", 
+        "install_env": {
+          "SHUFFLE": "", 
+          "CK_HOST_OS_ID": "linux", 
+          "CK_TARGET_CPU_BITS": "64", 
+          "CK_TARGET_OS_ID": "linux", 
+          "RESIZE_WIDTH": "320", 
+          "CK_CAFFE_IMAGENET_VAL_TXT": "/tmp/tmp-pezd4jhh.tmp", 
+          "RESIZE_HEIGHT": "320", 
+          "PACKAGE_VERSION": "2012"
+        }, 
+        "soft_file": {
+          "win": "data.mdb", 
+          "linux": "data.mdb"
+        }, 
+        "package_extra_name": " (resize 320) (500 images)", 
+        "full_path": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-val-lmdb-dataset.imagenet.val-2012-resize-320-img500/data/data.mdb", 
+        "skip_path": "yes", 
+        "ck_features_file": "ck-features.json", 
+        "extra_suggested_path": "-resize-320-img500", 
+        "version": "2012", 
+        "no_os_in_suggested_path": "yes", 
+        "first_images": 500, 
+        "version_split": [
+          2012
+        ], 
+        "limit_recursion_dir_search": {
+          "win": 3, 
+          "linux": 4
+        }, 
+        "check_that_exists": "yes", 
+        "no_ver_in_suggested_path": "yes", 
+        "ck_version": 10, 
+        "env_prefix": "CK_ENV_DATASET_IMAGENET_VAL_LMDB", 
+        "used_package_uid": "73731fe84a489ca5"
+      }, 
+      "name": "ImageNet dataset (lmdb)", 
+      "tags": "dataset,imagenet,val-lmdb", 
+      "only_for_cmd": [
+        "test_cpu", 
+        "test_gpu", 
+        "test_gpu_fp16"
+      ], 
+      "num_entries": 1, 
+      "package_uoa": "73731fe84a489ca5", 
+      "uoa": "8cfb46cd87488e2b", 
+      "dict": {
+        "data_name": "ImageNet dataset (validation, LMDB) (resize 320) (500 images)", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "caffe", 
+          "channel-stable", 
+          "dataset", 
+          "default", 
+          "host-os-linux-64", 
+          "ilsvrc2012", 
+          "imagenet", 
+          "inception-v3", 
+          "lmdb", 
+          "needs-unknown_dataset-imagenet-raw", 
+          "needs-unknown_dataset-imagenet-raw-2012", 
+          "resize-320", 
+          "target-os-linux-64", 
+          "v2012", 
+          "val-lmdb"
+        ], 
+        "customize": {
+          "force_ask_path": "yes", 
+          "features": {
+            "resize_height": "320", 
+            "resize_width": "320", 
+            "number_of_original_images": 500, 
+            "shuffle": ""
+          }, 
+          "used_package_uoa": "73731fe84a489ca5", 
+          "install_env": {
+            "SHUFFLE": "", 
+            "CK_HOST_OS_ID": "linux", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CK_TARGET_OS_ID": "linux", 
+            "RESIZE_WIDTH": "320", 
+            "CK_CAFFE_IMAGENET_VAL_TXT": "/tmp/tmp-pezd4jhh.tmp", 
+            "RESIZE_HEIGHT": "320", 
+            "PACKAGE_VERSION": "2012"
+          }, 
+          "soft_file": {
+            "win": "data.mdb", 
+            "linux": "data.mdb"
+          }, 
+          "package_extra_name": " (resize 320) (500 images)", 
+          "full_path": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-val-lmdb-dataset.imagenet.val-2012-resize-320-img500/data/data.mdb", 
+          "skip_path": "yes", 
+          "ck_features_file": "ck-features.json", 
+          "extra_suggested_path": "-resize-320-img500", 
+          "version": "2012", 
+          "no_os_in_suggested_path": "yes", 
+          "first_images": 500, 
+          "version_split": [
+            2012
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 3, 
+            "linux": 4
+          }, 
+          "check_that_exists": "yes", 
+          "no_ver_in_suggested_path": "yes", 
+          "ck_version": 10, 
+          "env_prefix": "CK_ENV_DATASET_IMAGENET_VAL_LMDB", 
+          "used_package_uid": "73731fe84a489ca5"
+        }, 
+        "setup": {
+          "version_split": [
+            2012
+          ], 
+          "target_os_bits": "64", 
+          "version": "2012", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "73731fe84a489ca5", 
+        "soft_uoa": "092da4cabb3b7f8c", 
+        "env": {
+          "CK_CAFFE_IMAGENET_VAL_LMDB": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-val-lmdb-dataset.imagenet.val-2012-resize-320-img500/data", 
+          "CK_ENV_DATASET_IMAGENET_VAL_LMDB": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-val-lmdb-dataset.imagenet.val-2012-resize-320-img500/data"
+        }, 
+        "soft_alias": "dataset.imagenet.val.lmdb"
+      }, 
+      "ver": "2012", 
+      "choices": [
+        "8cfb46cd87488e2b"
+      ], 
+      "local": "yes", 
+      "force_target_as_host": "yes"
+    }, 
+    "caffemodel": {
+      "sort": 20, 
+      "for_run_time": "yes", 
+      "bat": ". /home/fursin/CK/local/env/cc09e4b5c3466eb0/env.sh\n", 
+      "ver": "fp32", 
+      "name": "Caffe model (net and weights)", 
+      "tags": "caffemodel", 
+      "only_for_cmd": [
+        "test_cpu", 
+        "test_gpu", 
+        "test_gpu_fp16", 
+        "time_cpu", 
+        "time_gpu", 
+        "time_gpu_fp16"
+      ], 
+      "num_entries": 1, 
+      "package_uoa": "4b439b412770d1a6", 
+      "uoa": "cc09e4b5c3466eb0", 
+      "dict": {
+        "data_name": "Caffe model (net and weights) (resnet50, fp32)", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "bvlc", 
+          "caffe", 
+          "caffemodel", 
+          "channel-stable", 
+          "host-os-linux-64", 
+          "net", 
+          "resnet", 
+          "resnet50", 
+          "target-os-linux-64", 
+          "v0", 
+          "vfloat32", 
+          "vfp32", 
+          "weights"
+        ], 
+        "customize": {
+          "skip_path": "yes", 
+          "extra_dir": "", 
+          "skip_file_check": "yes", 
+          "no_ver_in_suggested_path": "no", 
+          "env_prefix": "CK_ENV_MODEL_CAFFE", 
+          "used_package_uid": "4b439b412770d1a6", 
+          "used_package_uoa": "caffemodel-resnet50", 
+          "package_extra_name": " (resnet50, fp32)", 
+          "version": "fp32", 
+          "params": {
+            "train": {
+              "template": "train_val.prototxt", 
+              "substitute": {
+                "train_batch_size": 50, 
+                "val_batch_size": 50
+              }
+            }, 
+            "val": {
+              "template": "train_val.prototxt", 
+              "substitute": {
+                "train_batch_size": 50, 
+                "val_batch_size": 50
+              }, 
+              "accuracy_layers": [
+                "accuracy/top-1", 
+                "accuracy/top-5"
+              ]
+            }, 
+            "deploy": {
+              "template": "deploy.prototxt", 
+              "substitute": {
+                "batch_size": 1
+              }
+            }
+          }, 
+          "no_os_in_suggested_path": "yes", 
+          "file_with_weights": "ResNet-50-model.caffemodel", 
+          "install_env": {
+            "MODEL_FILE": "ResNet-50-model.caffemodel", 
+            "MODEL_URL": "https://deepdetect.com/models/resnet/ResNet-50-model.caffemodel", 
+            "CK_HOST_OS_ID": "linux", 
+            "PACKAGE_VERSION": "fp32", 
+            "CK_TARGET_OS_ID": "linux", 
+            "MODEL_HASH_CALCULATOR": "sha1sum", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "MODEL_HASH_REF": "b7c79ccc21ad0479cddc0dd78b1d20c4d722908d"
+          }, 
+          "file_mean_bin": "ResNet_mean.binaryproto", 
+          "soft_file": {
+            "win": "deploy.prototxt", 
+            "linux": "deploy.prototxt"
+          }, 
+          "version_split": [
+            0
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 3, 
+            "linux": 3
+          }, 
+          "check_that_exists": "yes", 
+          "ck_version": 10, 
+          "force_ask_path": "yes", 
+          "ck_params_file": "ck-params.json", 
+          "full_path": "/home/fursin/fggwork/ck-tools/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel"
+        }, 
+        "setup": {
+          "version_split": [
+            0
+          ], 
+          "target_os_bits": "64", 
+          "version": "fp32", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "4b439b412770d1a6", 
+        "soft_uoa": "e2400aabc11d6cd1", 
+        "env": {
+          "CK_ENV_MODEL_CAFFE_MEAN_BIN": "/home/fursin/fggwork/ck-tools/caffemodel-resnet50-fp32/ResNet_mean.binaryproto", 
+          "CK_ENV_MODEL_CAFFE_WEIGHTS": "/home/fursin/fggwork/ck-tools/caffemodel-resnet50-fp32/ResNet-50-model.caffemodel", 
+          "CK_ENV_MODEL_CAFFE": "/home/fursin/fggwork/ck-tools/caffemodel-resnet50-fp32", 
+          "CK_ENV_MODEL_CAFFE_WEIGHTS_FILE": "ResNet-50-model.caffemodel", 
+          "CK_ENV_MODEL_CAFFE_MEAN_BIN_FILE": "ResNet_mean.binaryproto"
+        }, 
+        "soft_alias": "model.caffe"
+      }, 
+      "choices": [
+        "cc09e4b5c3466eb0"
+      ], 
+      "local": "yes", 
+      "force_target_as_host": "yes"
+    }, 
+    "dataset-imagenet-aux": {
+      "sort": 10, 
+      "for_run_time": "yes", 
+      "bat": ". /home/fursin/CK/local/env/8e6856446ebc94ae/env.sh\n", 
+      "cus": {
+        "used_package_uid": "4e3e9dd897f125bb", 
+        "used_package_uoa": "4e3e9dd897f125bb", 
+        "soft_file": {
+          "win": "imagenet_mean.binaryproto", 
+          "linux": "imagenet_mean.binaryproto"
+        }, 
+        "skip_path": "yes", 
+        "ck_version": 10, 
+        "path_bin": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux", 
+        "env_prefix": "CK_ENV_DATASET_IMAGENET_AUX", 
+        "version": "2012", 
+        "extra_dir": "", 
+        "version_split": [
+          2012
+        ], 
+        "limit_recursion_dir_search": {
+          "win": 3, 
+          "linux": 3
+        }, 
+        "install_env": {
+          "DOWNLOAD_FILE_MD5": "f963098ea0e785a968ca1eb634003a90", 
+          "CK_HOST_OS_ID": "linux", 
+          "CK_TARGET_CPU_BITS": "64", 
+          "CK_TARGET_OS_ID": "linux", 
+          "DOWNLOAD_FILE1": "caffe_ilsvrc12.tar", 
+          "DOWNLOAD_URL": "http://dl.caffe.berkeleyvision.org/", 
+          "DOWNLOAD_NAME": "ILSVRC'12 aux dataset", 
+          "DOWNLOAD_FILE": "caffe_ilsvrc12.tar.gz", 
+          "PACKAGE_VERSION": "2012"
+        }, 
+        "no_ver_in_suggested_path": "yes", 
+        "check_that_exists": "yes", 
+        "full_path": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/imagenet_mean.binaryproto", 
+        "no_os_in_suggested_path": "yes"
+      }, 
+      "name": "ImageNet dataset (aux)", 
+      "tags": "dataset,imagenet,aux", 
+      "only_for_cmd": [
+        "test_cpu", 
+        "test_gpu", 
+        "test_gpu_fp16"
+      ], 
+      "num_entries": 1, 
+      "package_uoa": "4e3e9dd897f125bb", 
+      "uoa": "8e6856446ebc94ae", 
+      "dict": {
+        "data_name": "ImageNet dataset (aux)", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "aux", 
+          "caffe", 
+          "channel-stable", 
+          "dataset", 
+          "host-os-linux-64", 
+          "ilsvrc2012", 
+          "imagenet", 
+          "target-os-linux-64", 
+          "v2012"
+        ], 
+        "customize": {
+          "used_package_uid": "4e3e9dd897f125bb", 
+          "used_package_uoa": "4e3e9dd897f125bb", 
+          "soft_file": {
+            "win": "imagenet_mean.binaryproto", 
+            "linux": "imagenet_mean.binaryproto"
+          }, 
+          "skip_path": "yes", 
+          "ck_version": 10, 
+          "path_bin": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux", 
+          "env_prefix": "CK_ENV_DATASET_IMAGENET_AUX", 
+          "version": "2012", 
+          "extra_dir": "", 
+          "version_split": [
+            2012
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 3, 
+            "linux": 3
+          }, 
+          "install_env": {
+            "DOWNLOAD_FILE_MD5": "f963098ea0e785a968ca1eb634003a90", 
+            "CK_HOST_OS_ID": "linux", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CK_TARGET_OS_ID": "linux", 
+            "DOWNLOAD_FILE1": "caffe_ilsvrc12.tar", 
+            "DOWNLOAD_URL": "http://dl.caffe.berkeleyvision.org/", 
+            "DOWNLOAD_NAME": "ILSVRC'12 aux dataset", 
+            "DOWNLOAD_FILE": "caffe_ilsvrc12.tar.gz", 
+            "PACKAGE_VERSION": "2012"
+          }, 
+          "no_ver_in_suggested_path": "yes", 
+          "check_that_exists": "yes", 
+          "full_path": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/imagenet_mean.binaryproto", 
+          "no_os_in_suggested_path": "yes"
+        }, 
+        "setup": {
+          "version_split": [
+            2012
+          ], 
+          "target_os_bits": "64", 
+          "version": "2012", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "4e3e9dd897f125bb", 
+        "soft_uoa": "167d823440e6a59a", 
+        "env": {
+          "CK_CAFFE_IMAGENET_TEST_TXT": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/test.txt", 
+          "CK_CAFFE_IMAGENET_BET_BIN": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/imagenet.bet.pickle", 
+          "CK_CAFFE_IMAGENET_SYNSETS_TXT": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/synsets.txt", 
+          "CK_CAFFE_IMAGENET_TRAIN_TXT": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/train.txt", 
+          "CK_CAFFE_IMAGENET_SYNSET_WORDS_TXT": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+          "CK_CAFFE_IMAGENET_VAL_TXT": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+          "CK_CAFFE_IMAGENET_DET_SYNSET_WORDS_TXT": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/det_synset_words.txt", 
+          "CK_ENV_DATASET_IMAGENET_AUX": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux", 
+          "CK_CAFFE_IMAGENET_MEAN_BIN": "/home/fursin/fggwork/ck-tools/dataset-imagenet-ilsvrc2012-aux/imagenet_mean.binaryproto"
+        }, 
+        "soft_alias": "dataset.imagenet.aux"
+      }, 
+      "ver": "2012", 
+      "choices": [
+        "8e6856446ebc94ae"
+      ], 
+      "local": "yes", 
+      "force_target_as_host": "yes"
+    }, 
+    "lib-caffe": {
+      "sort": 30, 
+      "for_run_time": "yes", 
+      "bat": ". /home/fursin/CK/local/env/ea0bb932ada65b8c/env.sh\n", 
+      "ver": "master-18b09e8", 
+      "name": "Caffe framework", 
+      "tags": "lib,caffe", 
+      "num_entries": 1, 
+      "package_uoa": "b39f40abfd34f10b", 
+      "uoa": "ea0bb932ada65b8c", 
+      "dict": {
+        "data_name": "BVLC Caffe framework (cpu)", 
+        "deps": {
+          "lib-protobuf-host": {
+            "skip_installed": {
+              "win": "yes", 
+              "android": "yes"
+            }, 
+            "sort": 115, 
+            "bat": ". /home/fursin/CK/local/env/8f82eb45db901b40/env.sh\n", 
+            "ver": "3.5.1", 
+            "name": "ProtoBuf host compiler", 
+            "tags": "lib,protobuf-host", 
+            "uoa": "8f82eb45db901b40", 
+            "choices": [
+              "8f82eb45db901b40", 
+              "2c7954c3489d21b6", 
+              "b5136061c4946b38"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "host-compiler": {
+                  "detected_ver": "5.4.0", 
+                  "sort": 10, 
+                  "bat": ". /home/fursin/CK/local/env/e1d217de4a0d8569/env.sh\n", 
+                  "ver": "5.4.0", 
+                  "name": "HOST C++ compiler", 
+                  "tags": "compiler,lang-cpp", 
+                  "build_dir_name": "gcc", 
+                  "uoa": "e1d217de4a0d8569", 
+                  "choices": [
+                    "29e449ba266c64e4", 
+                    "1e8951481d262596", 
+                    "8ade8c54a3544e70", 
+                    "072284f8b811d479", 
+                    "e4627a2af62621dd", 
+                    "5e55885a2da4e4fb", 
+                    "e1d217de4a0d8569"
+                  ], 
+                  "num_entries": 1, 
+                  "add_to_path": "yes", 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "gcc", 
+                      "host-os-linux-64", 
+                      "lang-c", 
+                      "lang-cpp", 
+                      "target-os-linux-64", 
+                      "v5", 
+                      "v5.4", 
+                      "v5.4.0"
+                    ], 
+                    "customize": {
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gcc", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GCC", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                        "linux": "/usr/bin/gcc"
+                      }, 
+                      "languages": [
+                        "C", 
+                        "CPP"
+                      ], 
+                      "version": "5.4.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "tool_postfix": "-5", 
+                      "soft_file": {
+                        "win": "gcc.exe", 
+                        "linux": "gcc"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gcc-5"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "5.4.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU C compiler", 
+                    "soft_uoa": "3a8a82fa40bf992d", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "-5", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_CC": "gcc-5", 
+                      "CK_RANLIB": "ranlib", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_LB": "ar rcs", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_CXX": "g++-5", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_ENV_COMPILER_GCC": "/usr", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gcc"
+                  }, 
+                  "local": "yes"
+                }, 
+                "cmake": {
+                  "detected_ver": "3.5.1", 
+                  "sort": 5, 
+                  "bat": ". /home/fursin/CK/local/env/ca4414b0f9825f90/env.sh\n", 
+                  "ver": "3.5.1", 
+                  "name": "cmake", 
+                  "tags": "tool,cmake", 
+                  "build_dir_name": "cmake", 
+                  "uoa": "ca4414b0f9825f90", 
+                  "choices": [
+                    "ca4414b0f9825f90"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "cmake", 
+                      "host-os-linux-64", 
+                      "target-os-linux-64", 
+                      "tool", 
+                      "v3", 
+                      "v3.5", 
+                      "v3.5.1"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "--version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "only_for_host_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "build_dir_name": "cmake", 
+                      "full_path": "/usr/bin/cmake", 
+                      "skip_path": "yes", 
+                      "add_to_path": "yes", 
+                      "soft_file": {
+                        "win": "cmake.exe", 
+                        "linux": "cmake"
+                      }, 
+                      "version": "3.5.1", 
+                      "soft_file_from_host_os": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 3, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe", 
+                        "linux": "/usr/bin/cmake"
+                      }, 
+                      "ck_version": 10, 
+                      "env_prefix": "CK_ENV_TOOL_CMAKE"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "3.5.1", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "cmake", 
+                    "soft_uoa": "77ef5e31404d9589", 
+                    "env": {
+                      "CK_ENV_TOOL_CMAKE_BIN": "/usr/bin", 
+                      "CK_ENV_TOOL_CMAKE": "/usr", 
+                      "CK_CMAKE": "cmake"
+                    }, 
+                    "soft_alias": "tool.cmake"
+                  }, 
+                  "local": "yes", 
+                  "force_target_as_host": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "channel-stable", 
+                "compiled-by-gcc", 
+                "compiled-by-gcc-5.4.0", 
+                "host-os-linux-64", 
+                "lib", 
+                "protobuf-host", 
+                "target-os-linux-64", 
+                "v3", 
+                "v3.5", 
+                "v3.5.1"
+              ], 
+              "customize": {
+                "used_package_uid": "b54156b6d7f87e24", 
+                "used_package_uoa": "lib-protobuf-3.5.1-host", 
+                "dynamic_lib": "libprotobuf.so", 
+                "static_lib": "libprotobuf.a", 
+                "skip_path": "yes", 
+                "check_that_exists": "yes", 
+                "soft_path_example": {
+                  "linux": ""
+                }, 
+                "path_bin": "/home/fursin/fggwork/ck-tools/lib-protobuf-host-3.5.1-compiler.gcc-5.4.0-linux-64/install/bin", 
+                "add_to_path": "yes", 
+                "full_path": "/home/fursin/fggwork/ck-tools/lib-protobuf-host-3.5.1-compiler.gcc-5.4.0-linux-64/install/lib/libprotobuf.a", 
+                "version": "3.5.1", 
+                "extra_dir": "", 
+                "version_split": [
+                  3, 
+                  5, 
+                  1
+                ], 
+                "limit_recursion_dir_search": {
+                  "linux": 3
+                }, 
+                "install_env": {
+                  "PACKAGE_NAME2": "v3.5.1", 
+                  "PACKAGE_NAME1": "v3.5.1.tar", 
+                  "PACKAGE_CONFIGURE_FLAGS_LINUX": "-DCMAKE_INSTALL_LIBDIR=lib", 
+                  "CK_CPU_ARM_NEON": "OFF", 
+                  "PACKAGE_SUB_DIR": "protobuf-3.5.1", 
+                  "CK_CC_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "PACKAGE_BUILD_TYPE": "cmake", 
+                  "PACKAGE_UNTAR": "YES", 
+                  "CK_CXX_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "PACKAGE_FLAGS_LINUX": "-fPIC", 
+                  "CK_CPU_ARM_VFPV3": "OFF", 
+                  "CK_CXX_PATH_FOR_CMAKE": "/usr/bin/g++-5", 
+                  "CK_TARGET_CPU_BITS": "64", 
+                  "PACKAGE_WGET": "YES", 
+                  "CK_CC_PATH_FOR_CMAKE": "/usr/bin/gcc-5", 
+                  "CK_COMPILER_PATH_FOR_CMAKE_MINGW": "/usr/bin", 
+                  "PACKAGE_SUB_DIR1": "protobuf-3.5.1/cmake", 
+                  "CK_ARMEABI_V7A": "OFF", 
+                  "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "4", 
+                  "CK_HOST_OS_ID": "linux", 
+                  "CMAKE_CONFIG": "Release", 
+                  "CK_AR_PATH_FOR_CMAKE_MINGW": "/usr/bin/ar", 
+                  "CK_TARGET_OS_ID": "linux", 
+                  "CK_CXX_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "PACKAGE_VERSION": "3.5.1", 
+                  "CK_CC_PATH_FOR_CMAKE_MINGW": "/usr/bin/gcc-5", 
+                  "CK_CXX_PATH_FOR_CMAKE_MINGW": "/usr/bin/g++-5", 
+                  "CK_CMAKE_EXTRA": "-DCMAKE_INSTALL_LIBDIR=lib", 
+                  "PACKAGE_URL": "https://github.com/google/protobuf/archive", 
+                  "CK_CC_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "PACKAGE_NAME": "v3.5.1.tar.gz", 
+                  "PACKAGE_RENAME": "YES", 
+                  "PACKAGE_CONFIGURE_FLAGS_WINDOWS": "-DBUILD_SHARED_LIBS=OFF -Dprotobuf_MSVC_STATIC_RUNTIME=OFF", 
+                  "PACKAGE_UNGZIP": "YES", 
+                  "CK_ARMEABI_V7A_HARD": "OFF", 
+                  "PACKAGE_AUTOGEN": "NO", 
+                  "CK_COMPILER_PATH_FOR_CMAKE": "/usr/bin", 
+                  "PACKAGE_UNTAR_SKIP_ERROR_WIN": "YES", 
+                  "CK_AR_PATH_FOR_CMAKE": "/usr/bin/ar", 
+                  "PACKAGE_CONFIGURE_FLAGS": "-Dprotobuf_BUILD_TESTS=OFF"
+                }, 
+                "soft_file": {
+                  "linux": "libprotobuf.a"
+                }, 
+                "path_include": "/home/fursin/fggwork/ck-tools/lib-protobuf-host-3.5.1-compiler.gcc-5.4.0-linux-64/install/include", 
+                "ck_version": 10, 
+                "env_prefix": "CK_ENV_LIB_PROTOBUF_HOST", 
+                "path_lib": "/home/fursin/fggwork/ck-tools/lib-protobuf-host-3.5.1-compiler.gcc-5.4.0-linux-64/install/lib"
+              }, 
+              "setup": {
+                "deps_cmake": "ca4414b0f9825f90", 
+                "target_os_uoa": "4258b5fe54828a50", 
+                "version": "3.5.1", 
+                "version_split": [
+                  3, 
+                  5, 
+                  1
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "deps_host-compiler": "e1d217de4a0d8569"
+              }, 
+              "data_name": "ProtoBuf host library", 
+              "package_uoa": "b54156b6d7f87e24", 
+              "soft_uoa": "57c5f409aaf1ceed", 
+              "env": {
+                "CK_ENV_LIB_PROTOBUF_HOST_LFLAG": "-lprotobuf", 
+                "CK_ENV_LIB_PROTOBUF_HOST": "/home/fursin/fggwork/ck-tools/lib-protobuf-host-3.5.1-compiler.gcc-5.4.0-linux-64/install", 
+                "CK_ENV_LIB_PROTOBUF_HOST_DYNAMIC_NAME": "libprotobuf.so", 
+                "CK_ENV_LIB_PROTOBUF_HOST_STATIC_NAME": "libprotobuf.a", 
+                "CK_ENV_LIB_PROTOBUF_HOST_SRC_DIR": "/home/fursin/fggwork/ck-tools/lib-protobuf-host-3.5.1-compiler.gcc-5.4.0-linux-64/protobuf-3.5.1"
+              }, 
+              "soft_alias": "lib.protobuf.host"
+            }, 
+            "package_uoa": "b54156b6d7f87e24", 
+            "local": "yes", 
+            "force_target_as_host": "yes"
+          }, 
+          "lib-gflags": {
+            "skip_installed": {
+              "win": "yes", 
+              "android": "yes"
+            }, 
+            "sort": 12, 
+            "bat": ". /home/fursin/CK/local/env/2fe3e4fa1b935851/env.sh 1\n", 
+            "ver": "2", 
+            "name": "GFlags library", 
+            "tags": "lib,gflags", 
+            "local": "yes", 
+            "uoa": "2fe3e4fa1b935851", 
+            "choices": [
+              "52c5f6c4ae3af245", 
+              "167968d7e9b611b1", 
+              "2fe3e4fa1b935851"
+            ], 
+            "num_entries": 1, 
+            "update_tags_by_target_platform2": {
+              "win": "v2.2.0", 
+              "android": "v2.2.0"
+            }, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "gflags", 
+                "host-os-linux-64", 
+                "lib", 
+                "target-os-linux-64", 
+                "v2"
+              ], 
+              "customize": {
+                "dynamic_lib": "libgflags.so", 
+                "static_lib": "libgflags.a", 
+                "skip_path": "yes", 
+                "soft_file": {
+                  "win": "gflags.lib", 
+                  "linux": "libgflags$#file_ext_dll#$"
+                }, 
+                "version": "2", 
+                "env_prefix": "CK_ENV_LIB_GFLAGS", 
+                "limit_recursion_dir_search": {
+                  "win": 3, 
+                  "linux": 3
+                }, 
+                "version_split": [
+                  2
+                ], 
+                "path_include": "/usr/include", 
+                "check_that_exists": "yes", 
+                "soft_path_example": {
+                  "win": "", 
+                  "linux": "/usr/lib/x86_64-linux-gnu/libgflags.so"
+                }, 
+                "ck_version": 10, 
+                "full_path": "/usr/lib/x86_64-linux-gnu/libgflags.so", 
+                "path_lib": "/usr/lib/x86_64-linux-gnu"
+              }, 
+              "setup": {
+                "version_split": [
+                  2
+                ], 
+                "target_os_bits": "64", 
+                "version": "2", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "GFlags library", 
+              "soft_uoa": "64abac44465943ea", 
+              "env": {
+                "CK_ENV_LIB_GFLAGS": "/usr", 
+                "CK_ENV_LIB_GFLAGS_DYNAMIC_NAME": "libgflags.so", 
+                "CK_ENV_LIB_GFLAGS_STATIC_NAME": "libgflags.a", 
+                "CK_ENV_LIB_GFLAGS_LFLAG": "-lgflags"
+              }, 
+              "soft_alias": "lib.gflags"
+            }, 
+            "force_env_init": "yes"
+          }, 
+          "lib-protobuf": {
+            "skip_installed": {
+              "win": "yes", 
+              "android": "yes"
+            }, 
+            "sort": 110, 
+            "name": "ProtoBuf library", 
+            "tags": "lib,protobuf", 
+            "only_for_target_os_tags": [
+              "android"
+            ], 
+            "local": "yes"
+          }, 
+          "python": {
+            "sort": 0, 
+            "name": "Python for interfacing", 
+            "tags": "compiler,python", 
+            "only_for_target_os_tags": [
+              "windows"
+            ], 
+            "local": "yes", 
+            "skip_from_bat": "yes"
+          }, 
+          "lib-glog": {
+            "skip_installed": {
+              "win": "yes", 
+              "android": "yes"
+            }, 
+            "sort": 14, 
+            "bat": ". /home/fursin/CK/local/env/aa38f0898a510bd0/env.sh\n", 
+            "ver": "development-77a0e36", 
+            "name": "GLog library", 
+            "tags": "lib,glog", 
+            "uoa": "aa38f0898a510bd0", 
+            "choices": [
+              "aa38f0898a510bd0"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "gflags": {
+                  "sort": 20, 
+                  "bat": ". /home/fursin/CK/local/env/52c5f6c4ae3af245/env.sh\n", 
+                  "ver": "2.2.0", 
+                  "name": "GFlags library", 
+                  "tags": "lib,gflags", 
+                  "uoa": "52c5f6c4ae3af245", 
+                  "choices": [
+                    "52c5f6c4ae3af245"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "gflags", 
+                      "host-os-linux-64", 
+                      "lib", 
+                      "target-os-linux-64", 
+                      "v2", 
+                      "v2.2", 
+                      "v2.2.0"
+                    ], 
+                    "customize": {
+                      "git_src_dir": "src", 
+                      "dynamic_lib": "libgflags.so", 
+                      "static_lib": "libgflags.a", 
+                      "skip_path": "yes", 
+                      "limit_recursion_dir_search": {
+                        "win": 3, 
+                        "linux": 3
+                      }, 
+                      "soft_file": {
+                        "win": "gflags.lib", 
+                        "linux": "libgflags.so"
+                      }, 
+                      "version": "2.2.0", 
+                      "check_that_exists": "yes", 
+                      "env_prefix": "CK_ENV_LIB_GFLAGS", 
+                      "extra_dir": "", 
+                      "version_split": [
+                        2, 
+                        2, 
+                        0
+                      ], 
+                      "path_include": "/home/fursin/fggwork/ck-tools/lib-gflags-2.2.0-gcc-5.4.0-linux-64/install/include", 
+                      "install_env": {
+                        "PACKAGE_NAME2": "v2.2.0", 
+                        "PACKAGE_NAME1": "v2.2.0.tar", 
+                        "PACKAGE_NAME": "v2.2.0.tar.gz", 
+                        "PACKAGE_RENAME": "YES", 
+                        "PACKAGE_CONFIGURE_FLAGS_WINDOWS": "-DBUILD_SHARED_LIBS=ON", 
+                        "PACKAGE_UNGZIP": "YES", 
+                        "CMAKE_CONFIG": "Release", 
+                        "PACKAGE_BUILD_TYPE": "cmake", 
+                        "PACKAGE_SUB_DIR": "gflags-2.2.0", 
+                        "PACKAGE_WGET": "YES", 
+                        "PACKAGE_UNTAR": "YES", 
+                        "PACKAGE_CONFIGURE_FLAGS_LINUX": "-DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON", 
+                        "PACKAGE_URL": "https://github.com/gflags/gflags/archive", 
+                        "PACKAGE_CONFIGURE_FLAGS_ANDROID": "-DBUILD_STATIC_LIBS=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF", 
+                        "PACKAGE_UNTAR_SKIP_ERROR_WIN": "YES", 
+                        "PACKAGE_SUB_DIR1": "gflags-2.2.0", 
+                        "PACKAGE_CONFIGURE_FLAGS": ""
+                      }, 
+                      "soft_path_example": {
+                        "win": "", 
+                        "linux": "/usr/lib/x86_64-linux-gnu/libgflags.so"
+                      }, 
+                      "ck_version": 10, 
+                      "full_path": "/home/fursin/fggwork/ck-tools/lib-gflags-2.2.0-gcc-5.4.0-linux-64/install/lib/libgflags.so", 
+                      "path_lib": "/home/fursin/fggwork/ck-tools/lib-gflags-2.2.0-gcc-5.4.0-linux-64/install/lib"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        2, 
+                        2, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "2.2.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GFlags library", 
+                    "soft_uoa": "64abac44465943ea", 
+                    "env": {
+                      "CK_ENV_LIB_GFLAGS": "/home/fursin/fggwork/ck-tools/lib-gflags-2.2.0-gcc-5.4.0-linux-64/install", 
+                      "CK_ENV_LIB_GFLAGS_DYNAMIC_NAME": "libgflags.so", 
+                      "CK_ENV_LIB_GFLAGS_STATIC_NAME": "libgflags.a", 
+                      "CK_ENV_LIB_GFLAGS_LFLAG": "-lgflags"
+                    }, 
+                    "soft_alias": "lib.gflags"
+                  }, 
+                  "local": "yes"
+                }, 
+                "cmake": {
+                  "detected_ver": "3.5.1", 
+                  "sort": 5, 
+                  "bat": ". /home/fursin/CK/local/env/ca4414b0f9825f90/env.sh\n", 
+                  "ver": "3.5.1", 
+                  "name": "cmake", 
+                  "tags": "tool,cmake", 
+                  "build_dir_name": "cmake", 
+                  "uoa": "ca4414b0f9825f90", 
+                  "choices": [
+                    "ca4414b0f9825f90"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "cmake", 
+                      "host-os-linux-64", 
+                      "target-os-linux-64", 
+                      "tool", 
+                      "v3", 
+                      "v3.5", 
+                      "v3.5.1"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "--version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "only_for_host_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "build_dir_name": "cmake", 
+                      "full_path": "/usr/bin/cmake", 
+                      "skip_path": "yes", 
+                      "add_to_path": "yes", 
+                      "soft_file": {
+                        "win": "cmake.exe", 
+                        "linux": "cmake"
+                      }, 
+                      "version": "3.5.1", 
+                      "soft_file_from_host_os": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 3, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe", 
+                        "linux": "/usr/bin/cmake"
+                      }, 
+                      "ck_version": 10, 
+                      "env_prefix": "CK_ENV_TOOL_CMAKE"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "3.5.1", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "cmake", 
+                    "soft_uoa": "77ef5e31404d9589", 
+                    "env": {
+                      "CK_ENV_TOOL_CMAKE_BIN": "/usr/bin", 
+                      "CK_ENV_TOOL_CMAKE": "/usr", 
+                      "CK_CMAKE": "cmake"
+                    }, 
+                    "soft_alias": "tool.cmake"
+                  }, 
+                  "local": "yes", 
+                  "force_target_as_host": "yes"
+                }, 
+                "compiler": {
+                  "detected_ver": "5.4.0", 
+                  "sort": 10, 
+                  "bat": ". /home/fursin/CK/local/env/e1d217de4a0d8569/env.sh\n", 
+                  "ver": "5.4.0", 
+                  "name": "C++ compiler", 
+                  "tags": "compiler,lang-cpp", 
+                  "build_dir_name": "gcc", 
+                  "uoa": "e1d217de4a0d8569", 
+                  "choices": [
+                    "29e449ba266c64e4", 
+                    "1e8951481d262596", 
+                    "8ade8c54a3544e70", 
+                    "072284f8b811d479", 
+                    "e4627a2af62621dd", 
+                    "e1d217de4a0d8569"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "gcc", 
+                      "host-os-linux-64", 
+                      "lang-c", 
+                      "lang-cpp", 
+                      "target-os-linux-64", 
+                      "v5", 
+                      "v5.4", 
+                      "v5.4.0"
+                    ], 
+                    "customize": {
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gcc", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GCC", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                        "linux": "/usr/bin/gcc"
+                      }, 
+                      "languages": [
+                        "C", 
+                        "CPP"
+                      ], 
+                      "version": "5.4.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "tool_postfix": "-5", 
+                      "soft_file": {
+                        "win": "gcc.exe", 
+                        "linux": "gcc"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gcc-5"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "5.4.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU C compiler", 
+                    "soft_uoa": "3a8a82fa40bf992d", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "-5", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_CC": "gcc-5", 
+                      "CK_RANLIB": "ranlib", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_LB": "ar rcs", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_CXX": "g++-5", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_ENV_COMPILER_GCC": "/usr", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gcc"
+                  }, 
+                  "local": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "glog", 
+                "host-os-linux-64", 
+                "lib", 
+                "target-os-linux-64", 
+                "v0", 
+                "v0.0", 
+                "vmaster", 
+                "vtrunk"
+              ], 
+              "customize": {
+                "git_src_dir": "src", 
+                "use_git_revision": "yes", 
+                "used_package_uid": "6f3b024855a80beb", 
+                "used_package_uoa": "lib-glog-trunk", 
+                "dynamic_lib": "libglog.so", 
+                "static_lib": "libglog.a", 
+                "git_info": {
+                  "revision": "77a0e36", 
+                  "iso_datetime_cut": "20170512", 
+                  "iso_datetime_cut_revision": "20170512-77a0e36", 
+                  "iso_datetime": "2017-05-12T14:57:09", 
+                  "datetime": "Fri May 12 14:57:09 2017 +0900"
+                }, 
+                "skip_path": "yes", 
+                "limit_recursion_dir_search": {
+                  "win": 3, 
+                  "linux": 3
+                }, 
+                "soft_file": {
+                  "win": "glog.lib", 
+                  "linux": "libglog.so"
+                }, 
+                "version": "development-77a0e36", 
+                "check_that_exists": "yes", 
+                "env_prefix": "CK_ENV_LIB_GLOG", 
+                "extra_dir": "", 
+                "version_split": [
+                  0, 
+                  0
+                ], 
+                "path_include": "/home/fursin/fggwork/ck-tools/lib-glog-development-gcc-5.4.0-linux-64/install/include", 
+                "install_env": {
+                  "PACKAGE_GIT": "YES", 
+                  "PACKAGE_CONFIGURE_FLAGS_WINDOWS": "-DBUILD_SHARED_LIBS=ON", 
+                  "CMAKE_CONFIG": "Release", 
+                  "PACKAGE_BUILD_TYPE": "cmake", 
+                  "PACKAGE_SUB_DIR": "src", 
+                  "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES", 
+                  "PACKAGE_CONFIGURE_FLAGS_LINUX": "-DBUILD_SHARED_LIBS=ON", 
+                  "PACKAGE_COPY": "YES", 
+                  "PACKAGE_URL": "https://github.com/google/glog", 
+                  "PACKAGE_CONFIGURE_FLAGS_ANDROID": "-DBUILD_SHARED_LIBS=OFF", 
+                  "PACKAGE_SUB_DIR1": "src", 
+                  "PACKAGE_CONFIGURE_FLAGS": "-DGFLAGS_LIBRARY=$<<CK_ENV_LIB_GFLAGS_LIB>>$ -DGFLAGS_INCLUDE_DIR=$<<CK_ENV_LIB_GFLAGS_INCLUDE>>$ -DBUILD_TESTING=OFF"
+                }, 
+                "soft_path_example": {
+                  "win": "", 
+                  "linux": "/usr/lib/x86_64-linux-gnu/libglog.so"
+                }, 
+                "ck_version": 10, 
+                "full_path": "/home/fursin/fggwork/ck-tools/lib-glog-development-gcc-5.4.0-linux-64/install/lib/libglog.so", 
+                "path_lib": "/home/fursin/fggwork/ck-tools/lib-glog-development-gcc-5.4.0-linux-64/install/lib"
+              }, 
+              "setup": {
+                "deps_gflags": "52c5f6c4ae3af245", 
+                "deps_compiler": "e1d217de4a0d8569", 
+                "deps_cmake": "ca4414b0f9825f90", 
+                "version": "development", 
+                "version_split": [
+                  0, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "GLog library", 
+              "package_uoa": "6f3b024855a80beb", 
+              "soft_uoa": "d42a1422abbcbb6a", 
+              "env": {
+                "CK_ENV_LIB_GLOG": "/home/fursin/fggwork/ck-tools/lib-glog-development-gcc-5.4.0-linux-64/install", 
+                "CK_ENV_LIB_GLOG_DYNAMIC_NAME": "libglog.so", 
+                "CK_ENV_LIB_GLOG_LFLAG": "-lglog", 
+                "CK_ENV_LIB_GLOG_STATIC_NAME": "libglog.a"
+              }, 
+              "soft_alias": "lib.glog"
+            }, 
+            "package_uoa": "6f3b024855a80beb", 
+            "local": "yes"
+          }, 
+          "lib-opencv": {
+            "skip_installed": {
+              "win": "yes", 
+              "android": "yes"
+            }, 
+            "sort": 20, 
+            "bat": ". /home/fursin/CK/local/env/581e764863953c00/env.sh\n", 
+            "ver": "3.2.0", 
+            "name": "OpenCV library", 
+            "tags": "lib,opencv", 
+            "uoa": "581e764863953c00", 
+            "choices": [
+              "581e764863953c00"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "cmake": {
+                  "detected_ver": "3.5.1", 
+                  "sort": 5, 
+                  "bat": ". /home/fursin/CK/local/env/ca4414b0f9825f90/env.sh\n", 
+                  "ver": "3.5.1", 
+                  "name": "cmake", 
+                  "tags": "tool,cmake", 
+                  "build_dir_name": "cmake", 
+                  "uoa": "ca4414b0f9825f90", 
+                  "choices": [
+                    "ca4414b0f9825f90"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "cmake", 
+                      "host-os-linux-64", 
+                      "target-os-linux-64", 
+                      "tool", 
+                      "v3", 
+                      "v3.5", 
+                      "v3.5.1"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "--version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "only_for_host_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "build_dir_name": "cmake", 
+                      "full_path": "/usr/bin/cmake", 
+                      "skip_path": "yes", 
+                      "add_to_path": "yes", 
+                      "soft_file": {
+                        "win": "cmake.exe", 
+                        "linux": "cmake"
+                      }, 
+                      "version": "3.5.1", 
+                      "soft_file_from_host_os": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 3, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe", 
+                        "linux": "/usr/bin/cmake"
+                      }, 
+                      "ck_version": 10, 
+                      "env_prefix": "CK_ENV_TOOL_CMAKE"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "3.5.1", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "cmake", 
+                    "soft_uoa": "77ef5e31404d9589", 
+                    "env": {
+                      "CK_ENV_TOOL_CMAKE_BIN": "/usr/bin", 
+                      "CK_ENV_TOOL_CMAKE": "/usr", 
+                      "CK_CMAKE": "cmake"
+                    }, 
+                    "soft_alias": "tool.cmake"
+                  }, 
+                  "local": "yes", 
+                  "force_target_as_host": "yes"
+                }, 
+                "compiler": {
+                  "detected_ver": "5.4.0", 
+                  "sort": 10, 
+                  "bat": ". /home/fursin/CK/local/env/e1d217de4a0d8569/env.sh\n", 
+                  "ver": "5.4.0", 
+                  "name": "C++ compiler", 
+                  "tags": "compiler,lang-cpp", 
+                  "build_dir_name": "gcc", 
+                  "uoa": "e1d217de4a0d8569", 
+                  "choices": [
+                    "f8824d27841ced0f", 
+                    "77f77e7a544a4a56", 
+                    "8ade8c54a3544e70", 
+                    "072284f8b811d479", 
+                    "e4627a2af62621dd", 
+                    "e1d217de4a0d8569"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "gcc", 
+                      "host-os-linux-64", 
+                      "lang-c", 
+                      "lang-cpp", 
+                      "target-os-linux-64", 
+                      "v5", 
+                      "v5.4", 
+                      "v5.4.0"
+                    ], 
+                    "customize": {
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gcc", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GCC", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                        "linux": "/usr/bin/gcc"
+                      }, 
+                      "languages": [
+                        "C", 
+                        "CPP"
+                      ], 
+                      "version": "5.4.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "tool_postfix": "-5", 
+                      "soft_file": {
+                        "win": "gcc.exe", 
+                        "linux": "gcc"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gcc-5"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "5.4.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU C compiler", 
+                    "soft_uoa": "3a8a82fa40bf992d", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "-5", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_CC": "gcc-5", 
+                      "CK_RANLIB": "ranlib", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_LB": "ar rcs", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_CXX": "g++-5", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_ENV_COMPILER_GCC": "/usr", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gcc"
+                  }, 
+                  "local": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "host-os-linux-64", 
+                "lib", 
+                "opencv", 
+                "target-os-linux-64", 
+                "v3", 
+                "v3.2", 
+                "v3.2.0"
+              ], 
+              "customize": {
+                "path_static_lib": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install/lib", 
+                "dynamic_lib": "libopencv_core.so", 
+                "full_path": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install/lib/libopencv_core.a", 
+                "skip_path": "yes", 
+                "check_that_exists": "yes", 
+                "soft_file": {
+                  "win": "opencv_annotation.exe", 
+                  "linux": "libopencv_core.so"
+                }, 
+                "version": "3.2.0", 
+                "soft_path_example": {
+                  "linux": "/usr/lib/x86_64-linux-gnu/libopencv_core.so"
+                }, 
+                "extra_dynamic_libs": {
+                  "opencv_highgui": "libopencv_highgui.so", 
+                  "opencv_ocl": "libopencv_ocl.so", 
+                  "opencv_imgproc": "libopencv_imgproc.so"
+                }, 
+                "extra_dir": "", 
+                "version_split": [
+                  3, 
+                  2, 
+                  0
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 5, 
+                  "linux": 4
+                }, 
+                "install_env": {
+                  "PACKAGE_NAME2": "3.2.0", 
+                  "PACKAGE_SKIP_CLEAN_OBJ": "NO", 
+                  "PACKAGE_SKIP_CLEAN_INSTALL": "NO", 
+                  "PACKAGE_NAME": "3.2.0.zip", 
+                  "PACKAGE_RENAME": "YES", 
+                  "PACKAGE_CONFIGURE_FLAGS_WINDOWS": "-DBUILD_PERF_TESTS=OFF -DBUILD_WITH_STATIC_CRT=OFF -DBUILD_PACKAGE=OFF -DWITH_PTHREADS_PF=OFF -DBUILD_SHARED_LIBS=ON -DOpenCV_INSTALL_BINARIES_PREFIX=\"\" -DOPENCV_DLLVERSION=\"\"", 
+                  "CMAKE_CONFIG": "Release", 
+                  "PACKAGE_BUILD_TYPE": "cmake", 
+                  "PACKAGE_SUB_DIR": "opencv-3.2.0", 
+                  "PACKAGE_WGET": "YES", 
+                  "PACKAGE_WGET_EXTRA": "--no-cookies", 
+                  "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO", 
+                  "PACKAGE_UNZIP": "YES", 
+                  "PACKAGE_CONFIGURE_FLAGS_LINUX": "", 
+                  "PACKAGE_COPY": "NO", 
+                  "PACKAGE_URL": "https://github.com/opencv/opencv/archive", 
+                  "PACKAGE_CONFIGURE_FLAGS_ANDROID": "", 
+                  "PACKAGE_SUB_DIR1": "opencv-3.2.0", 
+                  "PACKAGE_CONFIGURE_FLAGS": "-DUSE_IPPICV=OFF -DBUILD_ZLIB=ON -DWITH_JPEG=ON -DWITH_1394=OFF -DBUILD_JPEG=ON -DBUILD_PNG=ON -DBUILD_TIFF=ON -DWITH_CUDA=OFF -DWITH_MATLAB=OFF -DWITH_LAPACK=OFF -DWITH_MKL=OFF -DBUILD_ANDROID_EXAMPLES=OFF -DBUILD_SHARED_LIBS=OFF -DBUILD_DOCS=OFF -DBUILD_PERF_TESTS=OFF -DBUILD_TESTS=OFF -DWITH_CAROTENE=OFF", 
+                  "PACKAGE_GIT": "NO"
+                }, 
+                "path_dynamic_lib": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install/lib", 
+                "path_include": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install/include", 
+                "ck_version": 10, 
+                "env_prefix": "CK_ENV_LIB_OPENCV", 
+                "path_lib": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install/lib"
+              }, 
+              "setup": {
+                "deps_compiler": "e1d217de4a0d8569", 
+                "deps_cmake": "ca4414b0f9825f90", 
+                "version": "3.2.0", 
+                "version_split": [
+                  3, 
+                  2, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "OpenCV library", 
+              "package_uoa": "b5073a464ad381b6", 
+              "soft_uoa": "18eb79fe079438fb", 
+              "env": {
+                "CK_ENV_LIB_OPENCV_LFLAG_HIGHGUI": "-lopencv_highgui", 
+                "CK_ENV_LIB_OPENCV_LFLAG_IMGPROC": "-lopencv_imgproc", 
+                "CK_ENV_LIB_OPENCV_DYNAMIC_LIB_PATH": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install/lib", 
+                "CK_ENV_LIB_OPENCV_LFLAG_CORE": "-lopencv_core", 
+                "CK_ENV_LIB_OPENCV_STATIC_LIB_PATH": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install/lib", 
+                "CK_ENV_LIB_OPENCV": "/mnt/ck-tools/lib-opencv-3.2.0-linux-64/install"
+              }, 
+              "soft_alias": "lib.opencv"
+            }, 
+            "package_uoa": "b5073a464ad381b6", 
+            "local": "yes"
+          }, 
+          "lib-hdf5": {
+            "skip_installed": {
+              "win": "yes"
+            }, 
+            "sort": 19, 
+            "bat": ". /home/fursin/CK/local/env/2c2af722f4a52896/env.sh\n", 
+            "ver": "1.10.0", 
+            "name": "HDF5 library", 
+            "tags": "lib,hdf5", 
+            "uoa": "2c2af722f4a52896", 
+            "only_for_target_os_tags": [
+              "linux", 
+              "windows"
+            ], 
+            "choices": [
+              "2c2af722f4a52896"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "cmake": {
+                  "detected_ver": "3.5.1", 
+                  "sort": 5, 
+                  "bat": ". /home/fursin/CK/local/env/ca4414b0f9825f90/env.sh\n", 
+                  "ver": "3.5.1", 
+                  "name": "cmake", 
+                  "tags": "tool,cmake", 
+                  "build_dir_name": "cmake", 
+                  "uoa": "ca4414b0f9825f90", 
+                  "choices": [
+                    "ca4414b0f9825f90"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "cmake", 
+                      "host-os-linux-64", 
+                      "target-os-linux-64", 
+                      "tool", 
+                      "v3", 
+                      "v3.5", 
+                      "v3.5.1"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "--version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "only_for_host_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "build_dir_name": "cmake", 
+                      "full_path": "/usr/bin/cmake", 
+                      "skip_path": "yes", 
+                      "add_to_path": "yes", 
+                      "soft_file": {
+                        "win": "cmake.exe", 
+                        "linux": "cmake"
+                      }, 
+                      "version": "3.5.1", 
+                      "soft_file_from_host_os": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 3, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe", 
+                        "linux": "/usr/bin/cmake"
+                      }, 
+                      "ck_version": 10, 
+                      "env_prefix": "CK_ENV_TOOL_CMAKE"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "3.5.1", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "cmake", 
+                    "soft_uoa": "77ef5e31404d9589", 
+                    "env": {
+                      "CK_ENV_TOOL_CMAKE_BIN": "/usr/bin", 
+                      "CK_ENV_TOOL_CMAKE": "/usr", 
+                      "CK_CMAKE": "cmake"
+                    }, 
+                    "soft_alias": "tool.cmake"
+                  }, 
+                  "local": "yes", 
+                  "force_target_as_host": "yes"
+                }, 
+                "compiler": {
+                  "detected_ver": "5.4.0", 
+                  "sort": 10, 
+                  "bat": ". /home/fursin/CK/local/env/e1d217de4a0d8569/env.sh\n", 
+                  "ver": "5.4.0", 
+                  "name": "C++ compiler", 
+                  "tags": "compiler,lang-cpp", 
+                  "build_dir_name": "gcc", 
+                  "uoa": "e1d217de4a0d8569", 
+                  "choices": [
+                    "f8824d27841ced0f", 
+                    "77f77e7a544a4a56", 
+                    "8ade8c54a3544e70", 
+                    "072284f8b811d479", 
+                    "e4627a2af62621dd", 
+                    "e1d217de4a0d8569"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "gcc", 
+                      "host-os-linux-64", 
+                      "lang-c", 
+                      "lang-cpp", 
+                      "target-os-linux-64", 
+                      "v5", 
+                      "v5.4", 
+                      "v5.4.0"
+                    ], 
+                    "customize": {
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gcc", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GCC", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                        "linux": "/usr/bin/gcc"
+                      }, 
+                      "languages": [
+                        "C", 
+                        "CPP"
+                      ], 
+                      "version": "5.4.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "tool_postfix": "-5", 
+                      "soft_file": {
+                        "win": "gcc.exe", 
+                        "linux": "gcc"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gcc-5"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "5.4.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU C compiler", 
+                    "soft_uoa": "3a8a82fa40bf992d", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "-5", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_CC": "gcc-5", 
+                      "CK_RANLIB": "ranlib", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_LB": "ar rcs", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_CXX": "g++-5", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_ENV_COMPILER_GCC": "/usr", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gcc"
+                  }, 
+                  "local": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "hdf5", 
+                "host-os-linux-64", 
+                "lib", 
+                "target-os-linux-64", 
+                "v1", 
+                "v1.10", 
+                "v1.10.0"
+              ], 
+              "customize": {
+                "git_src_dir": "src", 
+                "include_file": "hdf5.h", 
+                "dynamic_lib": "libhdf5.a", 
+                "static_lib": "libhdf5.so", 
+                "skip_path": "yes", 
+                "limit_recursion_dir_search": {
+                  "linux": 6
+                }, 
+                "soft_file": {
+                  "linux": "libhdf5.so"
+                }, 
+                "include_name": "hdf5.h", 
+                "version": "1.10.0", 
+                "check_that_exists": "yes", 
+                "env_prefix": "CK_ENV_LIB_HDF5", 
+                "extra_dir": "", 
+                "version_split": [
+                  1, 
+                  10, 
+                  0
+                ], 
+                "path_include": "/home/fursin/fggwork/ck-tools/lib-hdf5-1.10.0-gcc-5.4.0-linux-64/install/include", 
+                "install_env": {
+                  "PACKAGE_NAME2": "hdf5-1.10.0-patch1", 
+                  "PACKAGE_NAME1": "hdf5-1.10.0-patch1.tar", 
+                  "PACKAGE_SKIP_CLEAN_INSTALL": "NO", 
+                  "PACKAGE_SKIP_CLEAN_PACKAGE": "NO", 
+                  "PACKAGE_SUB_DIR": "hdf5-1.10.0-patch1", 
+                  "PACKAGE_UNTAR": "YES", 
+                  "PACKAGE_SKIP_CLEAN_OBJ": "NO", 
+                  "PACKAGE_WGET": "YES", 
+                  "PACKAGE_SUB_DIR1": "hdf5-1.10.0-patch1", 
+                  "PACKAGE_CMAKE_TARGET": "INSTALL", 
+                  "CMAKE_CONFIG": "Release", 
+                  "PACKAGE_UNBZIP": "YES", 
+                  "PACKAGE_PATCH": "YES", 
+                  "PACKAGE_CONFIGURE_FLAGS_LINUX": "", 
+                  "PACKAGE_URL": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.0-patch1/src", 
+                  "PACKAGE_UNTAR_SKIP_ERROR_WIN": "YES", 
+                  "PACKAGE_NAME": "hdf5-1.10.0-patch1.tar.bz2", 
+                  "PACKAGE_RENAME": "NO", 
+                  "PACKAGE_CONFIGURE_FLAGS_WINDOWS": "", 
+                  "PACKAGE_CONFIGURE_FLAGS": "-DHDF5_BUILD_EXAMPLES=OFF -DHDF5_BUILD_TOOLS=OFF -DBUILD_TESTING=OFF", 
+                  "PACKAGE_BUILD_TYPE": "cmake", 
+                  "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO", 
+                  "PACKAGE_UNGZIP": "NO"
+                }, 
+                "soft_path_example": {
+                  "linux": "/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so"
+                }, 
+                "ck_version": 10, 
+                "full_path": "/home/fursin/fggwork/ck-tools/lib-hdf5-1.10.0-gcc-5.4.0-linux-64/install/lib/libhdf5.so", 
+                "path_lib": "/home/fursin/fggwork/ck-tools/lib-hdf5-1.10.0-gcc-5.4.0-linux-64/install/lib"
+              }, 
+              "setup": {
+                "deps_compiler": "e1d217de4a0d8569", 
+                "deps_cmake": "ca4414b0f9825f90", 
+                "version": "1.10.0", 
+                "version_split": [
+                  1, 
+                  10, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "HDF5 library", 
+              "package_uoa": "9b87531463b00ce4", 
+              "soft_uoa": "6d0c245e881231e8", 
+              "env": {
+                "CK_ENV_LIB_HDF5_STATIC_NAME": "libhdf5.so", 
+                "CK_ENV_LIB_HDF5": "/home/fursin/fggwork/ck-tools/lib-hdf5-1.10.0-gcc-5.4.0-linux-64/install", 
+                "CK_ENV_LIB_HDF5_DYNAMIC_NAME": "libhdf5.a", 
+                "CK_ENV_LIB_HDF5_INCLUDE_NAME": "hdf5.h"
+              }, 
+              "soft_alias": "lib.hdf5"
+            }, 
+            "package_uoa": "9b87531463b00ce4", 
+            "local": "yes"
+          }, 
+          "lib-blas": {
+            "sort": 30, 
+            "bat": ". /home/fursin/CK/local/env/3e06ebc4d948c791/env.sh\n", 
+            "ver": "0.2.19-85636ff", 
+            "name": "BLAS library", 
+            "tags": "lib,blas,openblas", 
+            "skip_default": "yes", 
+            "uoa": "3e06ebc4d948c791", 
+            "package_uoa": "3becaf2cd0422880", 
+            "num_entries": 1, 
+            "choices": [
+              "3e06ebc4d948c791"
+            ], 
+            "local": "yes"
+          }, 
+          "lib-leveldb": {
+            "sort": 40, 
+            "bat": ". /home/fursin/CK/local/env/e3442cb7f8f75cda/env.sh\n", 
+            "ver": "1.18", 
+            "name": "LevelDB library", 
+            "tags": "lib,leveldb", 
+            "uoa": "e3442cb7f8f75cda", 
+            "only_for_target_os_tags": [
+              "linux"
+            ], 
+            "choices": [
+              "e3442cb7f8f75cda"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "host-os-linux-64", 
+                "leveldb", 
+                "lib", 
+                "target-os-linux-64", 
+                "v1", 
+                "v1.18"
+              ], 
+              "customize": {
+                "dynamic_lib": "libleveldb.so", 
+                "static_lib": "libleveldb.a", 
+                "env_prefix": "CK_ENV_LIB_LEVELDB", 
+                "skip_path": "yes", 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 4
+                }, 
+                "soft_file": {
+                  "linux": "libleveldb$#file_ext_dll#$"
+                }, 
+                "version": "1.18", 
+                "path_bin": "/usr/bin", 
+                "file_root_name": "libleveldb", 
+                "version_split": [
+                  1, 
+                  18
+                ], 
+                "path_include": "/usr/include", 
+                "check_that_exists": "yes", 
+                "soft_path_example": {
+                  "linux": "/usr/local/lib/libleveldb.dylib"
+                }, 
+                "ck_version": 10, 
+                "full_path": "/usr/lib/x86_64-linux-gnu/libleveldb.so", 
+                "path_lib": "/usr/lib/x86_64-linux-gnu"
+              }, 
+              "setup": {
+                "version_split": [
+                  1, 
+                  18
+                ], 
+                "target_os_bits": "64", 
+                "version": "1.18", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "LevelDB library", 
+              "soft_uoa": "7bcd2d0cb07c45c7", 
+              "env": {
+                "CK_ENV_LIB_LEVELDB": "/usr", 
+                "CK_ENV_LIB_LEVELDB_STATIC_NAME": "libleveldb.a", 
+                "CK_ENV_LIB_LEVELDB_DYNAMIC_NAME": "libleveldb.so"
+              }, 
+              "soft_alias": "lib.leveldb"
+            }, 
+            "local": "yes"
+          }, 
+          "cmake": {
+            "detected_ver": "3.5.1", 
+            "sort": 5, 
+            "bat": ". /home/fursin/CK/local/env/ca4414b0f9825f90/env.sh\n", 
+            "ver": "3.5.1", 
+            "name": "cmake", 
+            "tags": "tool,cmake", 
+            "build_dir_name": "cmake", 
+            "uoa": "ca4414b0f9825f90", 
+            "choices": [
+              "ca4414b0f9825f90"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "cmake", 
+                "host-os-linux-64", 
+                "target-os-linux-64", 
+                "tool", 
+                "v3", 
+                "v3.5", 
+                "v3.5.1"
+              ], 
+              "customize": {
+                "soft_version_cmd": {
+                  "win": "--version > $#filename#$ 2>&1", 
+                  "linux": "--version > $#filename#$ 2>&1"
+                }, 
+                "only_for_host_os_tags": [
+                  "windows", 
+                  "linux"
+                ], 
+                "build_dir_name": "cmake", 
+                "full_path": "/usr/bin/cmake", 
+                "skip_path": "yes", 
+                "add_to_path": "yes", 
+                "soft_file": {
+                  "win": "cmake.exe", 
+                  "linux": "cmake"
+                }, 
+                "version": "3.5.1", 
+                "soft_file_from_host_os": "yes", 
+                "add_only_with_version": "yes", 
+                "version_split": [
+                  3, 
+                  5, 
+                  1
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 3, 
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "soft_path_example": {
+                  "win": "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe", 
+                  "linux": "/usr/bin/cmake"
+                }, 
+                "ck_version": 10, 
+                "env_prefix": "CK_ENV_TOOL_CMAKE"
+              }, 
+              "setup": {
+                "version_split": [
+                  3, 
+                  5, 
+                  1
+                ], 
+                "target_os_bits": "64", 
+                "version": "3.5.1", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "cmake", 
+              "soft_uoa": "77ef5e31404d9589", 
+              "env": {
+                "CK_ENV_TOOL_CMAKE_BIN": "/usr/bin", 
+                "CK_ENV_TOOL_CMAKE": "/usr", 
+                "CK_CMAKE": "cmake"
+              }, 
+              "soft_alias": "tool.cmake"
+            }, 
+            "skip_from_bat": "yes", 
+            "local": "yes", 
+            "force_target_as_host": "yes"
+          }, 
+          "lib-lmdb": {
+            "sort": 18, 
+            "bat": ". /home/fursin/CK/local/env/1f1b9d5beba5db10/env.sh\n", 
+            "ver": "development-4d21543", 
+            "name": "LMDB library", 
+            "tags": "lib,lmdb", 
+            "uoa": "1f1b9d5beba5db10", 
+            "only_for_target_os_tags": [
+              "linux", 
+              "windows"
+            ], 
+            "choices": [
+              "1f1b9d5beba5db10"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "cmake": {
+                  "detected_ver": "3.5.1", 
+                  "sort": 5, 
+                  "bat": ". /home/fursin/CK/local/env/ca4414b0f9825f90/env.sh\n", 
+                  "ver": "3.5.1", 
+                  "name": "cmake", 
+                  "tags": "tool,cmake", 
+                  "build_dir_name": "cmake", 
+                  "uoa": "ca4414b0f9825f90", 
+                  "choices": [
+                    "ca4414b0f9825f90"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "cmake", 
+                      "host-os-linux-64", 
+                      "target-os-linux-64", 
+                      "tool", 
+                      "v3", 
+                      "v3.5", 
+                      "v3.5.1"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "--version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "only_for_host_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "build_dir_name": "cmake", 
+                      "full_path": "/usr/bin/cmake", 
+                      "skip_path": "yes", 
+                      "add_to_path": "yes", 
+                      "soft_file": {
+                        "win": "cmake.exe", 
+                        "linux": "cmake"
+                      }, 
+                      "version": "3.5.1", 
+                      "soft_file_from_host_os": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 3, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe", 
+                        "linux": "/usr/bin/cmake"
+                      }, 
+                      "ck_version": 10, 
+                      "env_prefix": "CK_ENV_TOOL_CMAKE"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        3, 
+                        5, 
+                        1
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "3.5.1", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "cmake", 
+                    "soft_uoa": "77ef5e31404d9589", 
+                    "env": {
+                      "CK_ENV_TOOL_CMAKE_BIN": "/usr/bin", 
+                      "CK_ENV_TOOL_CMAKE": "/usr", 
+                      "CK_CMAKE": "cmake"
+                    }, 
+                    "soft_alias": "tool.cmake"
+                  }, 
+                  "local": "yes", 
+                  "force_target_as_host": "yes"
+                }, 
+                "compiler": {
+                  "detected_ver": "5.4.0", 
+                  "sort": 10, 
+                  "bat": ". /home/fursin/CK/local/env/e1d217de4a0d8569/env.sh\n", 
+                  "ver": "5.4.0", 
+                  "name": "C++ compiler", 
+                  "tags": "compiler,lang-cpp", 
+                  "build_dir_name": "gcc", 
+                  "uoa": "e1d217de4a0d8569", 
+                  "choices": [
+                    "77f77e7a544a4a56", 
+                    "e1d217de4a0d8569"
+                  ], 
+                  "num_entries": 1, 
+                  "update_tags_by_target_platform2": {
+                    "win": "mcl", 
+                    "android": "gcc", 
+                    "linux": "gcc"
+                  }, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "gcc", 
+                      "host-os-linux-64", 
+                      "lang-c", 
+                      "lang-cpp", 
+                      "target-os-linux-64", 
+                      "v5", 
+                      "v5.4", 
+                      "v5.4.0"
+                    ], 
+                    "customize": {
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gcc", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GCC", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                        "linux": "/usr/bin/gcc"
+                      }, 
+                      "languages": [
+                        "C", 
+                        "CPP"
+                      ], 
+                      "version": "5.4.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "tool_postfix": "-5", 
+                      "soft_file": {
+                        "win": "gcc.exe", 
+                        "linux": "gcc"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gcc-5"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        5, 
+                        4, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "5.4.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU C compiler", 
+                    "soft_uoa": "3a8a82fa40bf992d", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "-5", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_CC": "gcc-5", 
+                      "CK_RANLIB": "ranlib", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_LB": "ar rcs", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_CXX": "g++-5", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_ENV_COMPILER_GCC": "/usr", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gcc"
+                  }, 
+                  "local": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "host-os-linux-64", 
+                "lib", 
+                "lmdb", 
+                "target-os-linux-64", 
+                "v0", 
+                "v0.0", 
+                "vtrunk"
+              ], 
+              "customize": {
+                "git_src_dir": "src", 
+                "use_git_revision": "yes", 
+                "path_include": "/home/fursin/fggwork/ck-tools/lib-lmdb-development-gcc-5.4.0-linux-64/install/include", 
+                "extra_dir": "", 
+                "skip_path": "yes", 
+                "soft_file": {
+                  "win": "liblmdb.lib", 
+                  "linux": "liblmdb.so"
+                }, 
+                "version": "development-4d21543", 
+                "check_that_exists": "yes", 
+                "env_prefix": "CK_ENV_LIB_LMDB", 
+                "git_info": {
+                  "revision": "4d21543", 
+                  "iso_datetime_cut": "20170323", 
+                  "iso_datetime_cut_revision": "20170323-4d21543", 
+                  "iso_datetime": "2017-03-23T20:55:12", 
+                  "datetime": "Thu Mar 23 20:55:12 2017 +0000"
+                }, 
+                "version_split": [
+                  0, 
+                  0
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 3, 
+                  "linux": 3
+                }, 
+                "install_env": {
+                  "PACKAGE_SUB_DIR": "src", 
+                  "PACKAGE_SKIP_CLEAN_OBJ": "NO", 
+                  "PACKAGE_SKIP_CLEAN_INSTALL": "NO", 
+                  "PACKAGE_GIT": "YES", 
+                  "PACKAGE_SKIP_BUILD_ERROR": "YES", 
+                  "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO", 
+                  "PACKAGE_URL": "https://github.com/LMDB/lmdb", 
+                  "skip_file_check": "yes", 
+                  "PACKAGE_SKIP_LINUX_MAKE": "YES", 
+                  "PACKAGE_SUB_DIR1": "src"
+                }, 
+                "soft_path_example": {
+                  "win": "", 
+                  "linux": "/usr/lib/liblmdb.so"
+                }, 
+                "ck_version": 10, 
+                "full_path": "/home/fursin/fggwork/ck-tools/lib-lmdb-development-gcc-5.4.0-linux-64/install/lib/liblmdb.a", 
+                "path_lib": "/home/fursin/fggwork/ck-tools/lib-lmdb-development-gcc-5.4.0-linux-64/install/lib"
+              }, 
+              "setup": {
+                "deps_compiler": "e1d217de4a0d8569", 
+                "deps_cmake": "ca4414b0f9825f90", 
+                "version": "development", 
+                "version_split": [
+                  0, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "LMDB library", 
+              "package_uoa": "5f41ddacc856c14d", 
+              "soft_uoa": "a249f58927ceefa5", 
+              "env": {
+                "CK_ENV_LIB_LMDB": "/home/fursin/fggwork/ck-tools/lib-lmdb-development-gcc-5.4.0-linux-64/install"
+              }, 
+              "soft_alias": "lib.lmdb"
+            }, 
+            "package_uoa": "5f41ddacc856c14d", 
+            "local": "yes"
+          }, 
+          "lib-boost": {
+            "sort": 25, 
+            "bat": ". /home/fursin/CK/local/env/ceb9484c1bd48986/env.sh\n", 
+            "ver": "1.65.1-min-for-caffe", 
+            "name": "Boost library", 
+            "tags": "lib,boost", 
+            "skip_default": "yes", 
+            "uoa": "ceb9484c1bd48986", 
+            "package_uoa": "e8e0c4ee4898b84b", 
+            "num_entries": 1, 
+            "version_from": [
+              1, 
+              64, 
+              0
+            ], 
+            "choices": [
+              "ceb9484c1bd48986"
+            ], 
+            "local": "yes"
+          }, 
+          "compiler": {
+            "detected_ver": "5.4.0", 
+            "sort": 10, 
+            "bat": ". /home/fursin/CK/local/env/e1d217de4a0d8569/env.sh\n", 
+            "ver": "5.4.0", 
+            "name": "C++ compiler", 
+            "tags": "compiler,lang-cpp", 
+            "build_dir_name": "gcc", 
+            "uoa": "e1d217de4a0d8569", 
+            "choices": [
+              "1e8951481d262596", 
+              "e1d217de4a0d8569"
+            ], 
+            "num_entries": 1, 
+            "update_tags_by_target_platform2": {
+              "win": "mcl", 
+              "android": "gcc"
+            }, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "gcc", 
+                "host-os-linux-64", 
+                "lang-c", 
+                "lang-cpp", 
+                "target-os-linux-64", 
+                "v5", 
+                "v5.4", 
+                "v5.4.0"
+              ], 
+              "customize": {
+                "can_strip_dynamic_lib": "yes", 
+                "build_dir_name": "gcc", 
+                "skip_path": "yes", 
+                "tool_prefix_configured": "yes", 
+                "tool_prefix": "", 
+                "tool_postfix_configured": "yes", 
+                "env_prefix": "CK_ENV_COMPILER_GCC", 
+                "soft_version_cmd": {
+                  "win": " --version > $#filename#$ 2>&1", 
+                  "linux": "--version > $#filename#$ 2>&1"
+                }, 
+                "soft_path_example": {
+                  "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                  "linux": "/usr/bin/gcc"
+                }, 
+                "languages": [
+                  "C", 
+                  "CPP"
+                ], 
+                "version": "5.4.0", 
+                "soft_file_from_host_os": "yes", 
+                "tool_postfix": "-5", 
+                "soft_file": {
+                  "win": "gcc.exe", 
+                  "linux": "gcc"
+                }, 
+                "retarget": "no", 
+                "search_numeric_ext_on_linux": "yes", 
+                "add_to_path": "yes", 
+                "add_only_with_version": "yes", 
+                "version_split": [
+                  5, 
+                  4, 
+                  0
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "only_for_target_os_tags": [
+                  "mingw", 
+                  "windows", 
+                  "linux"
+                ], 
+                "full_path": "/usr/bin/gcc-5"
+              }, 
+              "setup": {
+                "version_split": [
+                  5, 
+                  4, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "version": "5.4.0", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "GNU C compiler", 
+              "soft_uoa": "3a8a82fa40bf992d", 
+              "env": {
+                "CK_FLAGS_DYNAMIC_BIN": " ", 
+                "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                "CK_AR": "ar", 
+                "CK_COMPILER_POSTFIX": "-5", 
+                "CK_PROFILER": "gprof", 
+                "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                "CK_LIB_EXT": ".a", 
+                "CK_OPT_SIZE": "-Os", 
+                "CK_OPT_SPEED": "-O3", 
+                "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                "CK_CC": "gcc-5", 
+                "CK_RANLIB": "ranlib", 
+                "CK_EXE_EXT": ".out", 
+                "CK_COMPILER_FLAG_GPROF": "-pg", 
+                "CK_OPT_ALL_WARNINGS": "-Wall", 
+                "CK_LB_OUTPUT": "-o ", 
+                "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                "CK_FLAG_PREFIX_VAR": "-D", 
+                "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                "CK_EXTRA_LIB_M": "-lm", 
+                "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                "CK_FLAGS_CREATE_OBJ": "-c", 
+                "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                "CK_OPT_UNWIND": " ", 
+                "CK_OBJ_EXT": ".o", 
+                "CK_FLAGS_OUTPUT": "-o ", 
+                "CK_LB": "ar rcs", 
+                "CK_LD": "ld", 
+                "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                "CK_PLUGIN_FLAG": "-fplugin=", 
+                "CK_DLL_EXT": ".so", 
+                "CK_CXX": "g++-5", 
+                "CK_ASM_EXT": ".s", 
+                "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                "CK_LD_FLAGS_EXTRA": "", 
+                "CK_OBJDUMP": "objdump -d", 
+                "CK_OPT_SPEED_SAFE": "-O2", 
+                "CK_FLAGS_DLL_EXTRA": "", 
+                "CK_FLAGS_DLL": "-shared -fPIC", 
+                "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                "CK_ENV_COMPILER_GCC": "/usr", 
+                "CK_EXTRA_LIB_DL": "-ldl", 
+                "CK_GPROF_OUT_FILE": "gmon.out", 
+                "CK_MAKE": "make", 
+                "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                "CK_FLAGS_CREATE_ASM": "-S"
+              }, 
+              "soft_alias": "compiler.gcc"
+            }, 
+            "update_tags_by_target_os_uoa": {
+              "linux-64": "gcc", 
+              "linux-32": "gcc", 
+              "macos-64": "llvm"
+            }, 
+            "local": "yes"
+          }
+        }, 
+        "tags": [
+          "64bits", 
+          "bvlc", 
+          "caffe", 
+          "channel-dev", 
+          "compiled-by-gcc", 
+          "compiled-by-gcc-5.4.0", 
+          "host-os-linux-64", 
+          "lib", 
+          "target-os-linux-64", 
+          "v0", 
+          "v0.0", 
+          "vcpu", 
+          "vmaster"
+        ], 
+        "customize": {
+          "git_src_dir": "src", 
+          "use_git_revision": "yes", 
+          "skip_path": "yes", 
+          "extra_dir": "", 
+          "no_ver_in_suggested_path": "yes", 
+          "env_prefix": "CK_ENV_LIB_CAFFE", 
+          "used_package_uid": "b39f40abfd34f10b", 
+          "used_package_uoa": "lib-caffe-bvlc-master-cpu-universal", 
+          "package_extra_name": " (cpu)", 
+          "static_lib": "libcaffe.a", 
+          "version": "master-18b09e8", 
+          "params": {
+            "use_leveldb": 1, 
+            "use_lmdb": 1, 
+            "cpu_only": 1, 
+            "use_cuda": 0, 
+            "debug": 0, 
+            "use_opencv": 1
+          }, 
+          "path_lib": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install/lib", 
+          "install_env": {
+            "BUILD_MATLAB": 0, 
+            "CMAKE_BUILD_SHARED_LIBS": 0, 
+            "PACKAGE_URL_WINDOWS": "https://github.com/BVLC/caffe", 
+            "PACKAGE_PATCH": "YES", 
+            "PACKAGE_SKIP_CLEAN_INSTALL": "NO", 
+            "PACKAGE_CONFIGURE_FLAGS_LINUX": "", 
+            "CK_CPU_ARM_NEON": "OFF", 
+            "PACKAGE_SUB_DIR": "src", 
+            "CK_CC_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "USE_LEVELDB": "ON", 
+            "PACKAGE_BUILD_TYPE": "cmake", 
+            "PACKAGE_URL": "https://github.com/BVLC/caffe", 
+            "PACKAGE_SKIP_CLEAN_OBJ": "NO", 
+            "CK_CXX_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "USE_PREBUILT_DEPENDENCIES": "OFF", 
+            "CK_HOST_OS_ID": "linux", 
+            "PACKAGE_GIT_CHECKOUT_ANDROID": "-b opencl c61d487", 
+            "CK_CPU_ARM_VFPV3": "OFF", 
+            "CPU_ONLY": 1, 
+            "RUN_LINT": 0, 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CAFFE_BUILD_PYTHON": "OFF", 
+            "RUN_INSTALL": 0, 
+            "WITH_NINJA": 0, 
+            "CK_CC_PATH_FOR_CMAKE": "/usr/bin/gcc-5", 
+            "CK_COMPILER_PATH_FOR_CMAKE_MINGW": "/usr/bin", 
+            "PACKAGE_SUB_DIR1": "src", 
+            "CK_ARMEABI_V7A": "OFF", 
+            "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "4", 
+            "BUILD_PYTHON_LAYER": 0, 
+            "BUILD_PYTHON": 0, 
+            "CMAKE_CONFIG": "Release", 
+            "CK_AR_PATH_FOR_CMAKE_MINGW": "/usr/bin/ar", 
+            "RUN_TESTS": 0, 
+            "PYTHON_EXE": "python", 
+            "CK_TARGET_OS_ID": "linux", 
+            "CK_CXX_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "PACKAGE_SKIP_BUILD_ERROR": "YES", 
+            "PACKAGE_VERSION": "master", 
+            "CK_CC_PATH_FOR_CMAKE_MINGW": "/usr/bin/gcc-5", 
+            "CK_CXX_PATH_FOR_CMAKE_MINGW": "/usr/bin/g++-5", 
+            "CK_CMAKE_EXTRA": "", 
+            "PACKAGE_COPY": "NO", 
+            "PACKAGE_GIT_CHECKOUT_WINDOWS": "windows", 
+            "PACKAGE_CONFIGURE_FLAGS_ANDROID": "-DBUILD_python=OFF -DBUILD_docs=OFF -DUSE_HDF5=OFF", 
+            "CK_CC_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "BLAS_TYPE": "Open", 
+            "USE_OPENMP": 0, 
+            "PACKAGE_CONFIGURE_FLAGS_WINDOWS": "", 
+            "CK_ARMEABI_V7A_HARD": "OFF", 
+            "CK_COMPILER_PATH_FOR_CMAKE": "/usr/bin", 
+            "PACKAGE_GIT": "YES", 
+            "PACKAGE_URL_LINUX": "https://github.com/BVLC/caffe", 
+            "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO", 
+            "USE_LMDB": "ON", 
+            "CK_AR_PATH_FOR_CMAKE": "/usr/bin/ar", 
+            "PACKAGE_CONFIGURE_FLAGS": "", 
+            "CK_CXX_PATH_FOR_CMAKE": "/usr/bin/g++-5", 
+            "PACKAGE_URL_ANDROID": "https://github.com/BVLC/caffe"
+          }, 
+          "soft_file": {
+            "win": "caffe.exe", 
+            "linux": "libcaffe.so"
+          }, 
+          "path_bin": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install/bin", 
+          "git_info": {
+            "revision": "18b09e8", 
+            "iso_datetime_cut": "20180327", 
+            "iso_datetime_cut_revision": "20180327-18b09e8", 
+            "iso_datetime": "2018-03-27T13:10:42", 
+            "datetime": "Tue Mar 27 13:10:42 2018 +0200"
+          }, 
+          "version_split": [
+            0, 
+            0
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 4, 
+            "linux": 4
+          }, 
+          "check_that_exists": "yes", 
+          "ck_version": 10, 
+          "dynamic_lib": "libcaffe.so", 
+          "path_include": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install/include", 
+          "full_path": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install/bin/caffe"
+        }, 
+        "setup": {
+          "deps_lib-leveldb": "e3442cb7f8f75cda", 
+          "deps_compiler": "e1d217de4a0d8569", 
+          "deps_lib-blas": "3e06ebc4d948c791", 
+          "deps_cmake": "ca4414b0f9825f90", 
+          "deps_lib-protobuf-host": "8f82eb45db901b40", 
+          "deps_lib-gflags": "2fe3e4fa1b935851", 
+          "target_os_uoa": "4258b5fe54828a50", 
+          "deps_lib-glog": "aa38f0898a510bd0", 
+          "deps_lib-boost": "ceb9484c1bd48986", 
+          "version": "master", 
+          "deps_lib-lmdb": "1f1b9d5beba5db10", 
+          "version_split": [
+            0, 
+            0
+          ], 
+          "target_os_bits": "64", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "deps_lib-hdf5": "2c2af722f4a52896", 
+          "deps_lib-opencv": "581e764863953c00"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "b39f40abfd34f10b", 
+        "soft_uoa": "04ab08137582bd03", 
+        "env": {
+          "CK_CAFFE_CLASSIFICATION_BIN": "classification", 
+          "CK_ENV_LIB_CAFFE": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install", 
+          "CK_ENV_LIB_CAFFE_PYTHON": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install/python", 
+          "CK_ENV_LIB_CAFFE_EXTRA_INCLUDE": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install/.build_release/src", 
+          "CK_ENV_LIB_CAFFE_STATIC_NAME": "libcaffe.a", 
+          "CK_CAFFE_BIN": "caffe", 
+          "CK_ENV_LIB_CAFFE_DYNAMIC_NAME": "libcaffe.so", 
+          "CAFFE_INSTALL_DIR": "/home/fursin/fggwork/ck-tools/lib-caffe-bvlc-master-cpu-gcc-5.4.0-linux-64/install"
+        }, 
+        "soft_alias": "lib.caffe"
+      }, 
+      "choices": [
+        "ea0bb932ada65b8c"
+      ], 
+      "local": "yes"
+    }
+  }, 
+  "no_compiler_description": "yes", 
+  "choices_desc": {}, 
+  "speed": "no"
+}
