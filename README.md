@@ -63,5 +63,5 @@ $ ck dashboard request.asplos18 --results=ck-request-asplos18-results-caffe-inte
 
 ### View results in the live scoreboard
 
-[Link](httð://cKnowledge.org/request-results)
+[Link](http://cKnowledge.org/request-results)
 
