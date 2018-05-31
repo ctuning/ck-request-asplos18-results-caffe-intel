@@ -11,7 +11,7 @@ You can see at least some of them in the [live ReQuEST scoreboard](http://cKnowl
 * [ACM paper DOI](https://doi.org/10.1145/3229762.3229763)
 * [ACM artifact DOI](https://doi.org/10.1145/3229769)
 
-* [ReQuEST intro](https://arxiv.org/abs/1801.06378)
+* [arXiv ReQuEST intro](https://arxiv.org/abs/1801.06378)
 
 ## Installation
 
