@@ -72,8 +72,8 @@ $ ck dashboard request.asplos18 --results=ck-request-asplos18-results-caffe-inte
 
 [Link](http://cKnowledge.org/request-results)
 
-
 ## Further discussions
 
 * [Collective Knowledge mailing list](http://groups.google.com/group/collective-knowledge)
+* [Collective Knowledge slack](https://collective-knowledge.slack.com)
 * [Artifact evaluation mailing list](http://groups.google.com/group/artifact-evaluation)
